@@ -26,8 +26,10 @@ class MusdbDataset(Dataset):
       logmelspec_novocal = logmelspec_novocal[0:128 , 0:num_slices*steps]
       logmelspec_vocal = logmelspec_vocal[0:128, 0:num_slices*steps]
 
-      logmelspec_novocal = torch.reshape(logmelspec_novocal, (num_slices, 128, steps))
-      logmelspec_vocal = torch.reshape(logmelspec_vocal, (num_slices, 128, steps))
+      # reshape tensors into chunks of size 128x(steps)
+      # first dimension is number of chunks
+      logmelspec_novocal = torch.transpose(torch.reshape(logmelspec_novocal, (128, num_slices, steps)), 0, 1)
+      logmelspec_vocal = torch.transpose(torch.reshape(logmelspec_vocal, (128, num_slices, steps)), 0, 1)
 
       # unsqueeze and concatenate these tensors. Then concatenate to the big tensor
       logmels = torch.cat((logmelspec_novocal.unsqueeze(1), logmelspec_vocal.unsqueeze(1)), 1)
