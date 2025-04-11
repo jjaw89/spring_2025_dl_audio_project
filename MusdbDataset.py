@@ -1,16 +1,15 @@
-import torch
-import librosa
-import numpy as np
-from torch.utils.data import Dataset
-
 class MusdbDataset(Dataset):
 
-  def __init__(self, musDB, steps = 256):
-    self.mel_specs = torch.zeros(1, 2, 128, steps)
+  def __init__(self, musDB, window_size = 256, step_size = 128):
+    self.mel_specs = torch.zeros(1, 2, 128, window_size)
     self.sample_rates = torch.tensor([0])
+
+    num_songs = 0
 
     for track in musDB:
       stems, rate = track.stems, track.rate
+
+      num_songs += 1
 
       # separate the vocal from other instruments and conver to mono signal
       audio_novocal = librosa.to_mono(np.transpose(stems[1] + stems[2] + stems[3]))
@@ -20,22 +19,30 @@ class MusdbDataset(Dataset):
       logmelspec_novocal = torch.from_numpy(self._mel_spectrogram(audio_novocal, rate))
       logmelspec_vocal = torch.from_numpy(self._mel_spectrogram(audio_vocal, rate))
 
-      num_slices = logmelspec_novocal.shape[1] // steps
+      start_ndx = 0
 
-      # chop off the last bit so that number of stft steps is a multiple of step size
-      logmelspec_novocal = logmelspec_novocal[0:128 , 0:num_slices*steps]
-      logmelspec_vocal = logmelspec_vocal[0:128, 0:num_slices*steps]
+      for step in range(window_size // step_size):
+        cropped_logmelspec_novocal = logmelspec_novocal[:, start_ndx:]
+        cropped_logmelspec_vocal = logmelspec_vocal[:, start_ndx:]
+        num_slices = cropped_logmelspec_novocal.shape[1] // window_size
 
-      # reshape tensors into chunks of size 128x(steps)
-      # first dimension is number of chunks
-      logmelspec_novocal = torch.transpose(torch.reshape(logmelspec_novocal, (128, num_slices, steps)), 0, 1)
-      logmelspec_vocal = torch.transpose(torch.reshape(logmelspec_vocal, (128, num_slices, steps)), 0, 1)
+        # chop off the last bit so that number of stft steps is a multiple of window_size
+        cropped_logmelspec_novocal = cropped_logmelspec_novocal[: , 0:num_slices*window_size]
+        cropped_logmelspec_vocal = cropped_logmelspec_vocal[:, 0:num_slices*window_size]
 
-      # unsqueeze and concatenate these tensors. Then concatenate to the big tensor
-      logmels = torch.cat((logmelspec_novocal.unsqueeze(1), logmelspec_vocal.unsqueeze(1)), 1)
-      self.mel_specs = torch.cat((self.mel_specs, logmels), 0)
-      self.sample_rates = torch.cat((self.sample_rates, torch.Tensor([rate])), 0)
-    
+        # reshape tensors into chunks of size 128x(window_size)
+        # first dimension is number of chunks
+        cropped_logmelspec_novocal = torch.transpose(torch.reshape(cropped_logmelspec_novocal, (128, num_slices, window_size)), 0, 1)
+        cropped_logmelspec_vocal = torch.transpose(torch.reshape(cropped_logmelspec_vocal, (128, num_slices, window_size)), 0, 1)
+
+        # unsqueeze and concatenate these tensors. Then concatenate to the big tensor
+        logmels = torch.cat((cropped_logmelspec_novocal.unsqueeze(1), cropped_logmelspec_vocal.unsqueeze(1)), 1)
+        self.mel_specs = torch.cat((self.mel_specs, logmels), 0)
+        self.sample_rates = torch.cat((self.sample_rates, torch.full((num_slices,), rate)), 0)
+
+        if num_songs % 5 == 0:
+          print(str(num_songs) + " songs processed; produced " + str(self.mel_specs.shape[0]) + " spectrograms")
+
     # remove the all zeros slice that we initialized with
     self.mel_specs = self.mel_specs[1: , : , : , :]
     self.sample_rates = self.sample_rates[1:]
@@ -50,3 +57,7 @@ class MusdbDataset(Dataset):
   def _mel_spectrogram(self, audio, rate):
     # compute the log-mel-spectrogram of the audio at the given sample rate
     return librosa.power_to_db(librosa.feature.melspectrogram(y = audio, sr = rate))
+
+  def cat(self, other_ds):
+    self.mel_specs = torch.cat((self.mel_specs, other_ds.mel_specs), 0)
+    self.sample_rates = torch.cat((self.sample_rates, other_ds.sample_rates), 0)
