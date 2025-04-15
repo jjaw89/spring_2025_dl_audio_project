@@ -1,5 +1,5 @@
 waveunet_local_changes.patch
 waveunet_index_changes.patch
 waveunet_untracked_backup/
-cycle_GAN_train_2_with_logging_5.ipynb
 runs/
+Wave-U-Net-Pytorch
