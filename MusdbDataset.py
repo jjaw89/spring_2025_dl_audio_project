@@ -44,10 +44,11 @@ class MusdbDataset(Dataset):
 
         # unsqueeze and concatenate these tensors. Then concatenate to the big tensor
         logmels = torch.cat((cropped_logmelspec_novocal.unsqueeze(1), cropped_logmelspec_vocal.unsqueeze(1)), 1)
+        logmels = self.remove_silent_layers(logmels)
         self.mel_specs = torch.cat((self.mel_specs, logmels), 0)
         self.sample_rates = torch.cat((self.sample_rates, torch.full((num_slices,), rate)), 0)
 
-        if num_songs % 5 == 0:
+        if num_songs % 10 == 0:
           print(str(num_songs) + " songs processed; produced " + str(self.mel_specs.shape[0]) + " spectrograms")
 
     # remove the all zeros slice that we initialized with
@@ -68,3 +69,14 @@ class MusdbDataset(Dataset):
   def cat(self, other_ds):
     self.mel_specs = torch.cat((self.mel_specs, other_ds.mel_specs), 0)
     self.sample_rates = torch.cat((self.sample_rates, other_ds.sample_rates), 0)
+
+  def remove_silent_layers(self, mel_specs, thresh=-30):
+    '''Removes any spectrograms from mel_specs where the vocal track is too quiet.
+    We define a chunk of audio to be 'too quiet' if the maximum value of a mel bin
+    is below the threshold. '''
+    nonzero_slices = []
+    for ndx in range(mel_specs.shape[0]):
+      if torch.max(mel_specs[ndx, 1, :, :]) >= thresh:
+        nonzero_slices.append(ndx)
+
+    return mel_specs[nonzero_slices]
