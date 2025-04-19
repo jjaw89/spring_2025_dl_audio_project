@@ -2,6 +2,6 @@ waveunet_local_changes.patch
 waveunet_index_changes.patch
 waveunet_untracked_backup/
 runs/
-Wave-U-Net-Pytorch
+Wave-U-Net-Pytorch/
 models/
 
