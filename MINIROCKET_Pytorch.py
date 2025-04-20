@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 from collections import OrderedDict
-
+import torch._dynamo
 # %% ../../nbs/056_models.MINIROCKET_Pytorch.ipynb 4
 class MiniRocketFeatures(nn.Module):
     """This is a Pytorch implementation of MiniRocket developed by Malcolm McLean and Ignacio Oguiza
@@ -65,6 +65,7 @@ class MiniRocketFeatures(nn.Module):
             self(X[idxs].to(self.kernels.device))
         self.fitting = False
     
+    # @torch._dynamo.disable
     def forward(self, x):
         _features = []
         for i, (dilation, padding) in enumerate(zip(self.dilations, self.padding)):
@@ -151,6 +152,8 @@ class MiniRocketFeatures(nn.Module):
 MRF = MiniRocketFeatures
 
 # %% ../../nbs/056_models.MINIROCKET_Pytorch.ipynb 5
+# import torch._dynamo
+# @torch._dynamo.disable
 def get_minirocket_features(o, model, chunksize=1024, use_cuda=None, to_np=True):
     """Function used to split a large dataset into chunks, avoiding OOM error."""
     use = torch.cuda.is_available() if use_cuda is None else use_cuda
