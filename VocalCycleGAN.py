@@ -371,7 +371,7 @@ class VocalCycleGAN:
         ############ MISSING SUMMARY WRITER CODE #################
         for epoch in range(self.num_epochs):
             print(f"\n=== Epoch {epoch+1}/{self.num_epochs} ===")
-            epoch_metrics = self.train_epoch()
+            epoch_metrics = self.train_epoch_random_accomp()
 
             print(f"Epoch {epoch+1} Metrics:")
             print(f"  Loss_DV:         {epoch_metrics['loss_DV']:.4f}")
