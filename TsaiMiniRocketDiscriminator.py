@@ -1,4 +1,5 @@
 import multiprocessing
+import torch
 import torch.nn as nn
 import numpy as np
 from torch.nn.utils import spectral_norm
