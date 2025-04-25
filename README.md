@@ -50,9 +50,14 @@ Lowering the cycle loss by a factor of 1000 gave us a model that produced melodi
 
 We trained for 700 epochs and got good behavour from our metrics.
 
-![The discriminators improved rapidly, so we froze them while the generators caught up. The adversairial loss improved steadily over the course of the training.](disc_adv_losses.png)
+![The discriminators improved rapidly, so we froze them while the generators caught up. The adversarial loss improved steadily over the course of the training.](disc_adv_losses.png)
 
-![The cycle loss and identity losses improved steadily over the course of the training. As expected, the idenity loss was greater than the cycle loss.](cycle_identity_losses.png)
+**Figure 1:** The discriminators improved rapidly, so we froze them while the generators caught up. The adversarial loss improved steadily over the course of the training.
+
+![The cycle loss and identity losses improved steadily over the course of the training. As expected, the identity loss was greater than the cycle loss.](cycle_identity_losses.png)
+
+**Figure 2:** The cycle loss and identity losses improved steadily over the course of the training. As expected, the identity loss was greater than the cycle loss.
+
 
 ## Files
 - dataset_classes.py : Contains the class definitions of the MusdbDataset and LibriSpeechDataset classes. There are three other internal dataset classes (AccompanimentVocalData, Speech Data, AccompanimentData) that help with loading and shuffling the data in the training loop.
