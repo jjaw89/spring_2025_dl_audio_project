@@ -2,7 +2,6 @@
 These functions download the Musdb and Librispeech datasets. The user must input the file path
 to the desired destination for the data.
 """
-DATA_DEST_PATH = " PUT PATH HERE "
 
 import requests
 import zipfile
