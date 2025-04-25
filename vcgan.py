@@ -15,6 +15,7 @@ from torch.optim import Adam
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from torchsummary import summary
+import librosa
 
 default_train_parameters = {
     # data loaders
@@ -39,8 +40,97 @@ default_train_parameters = {
 
 
 class VocalCycleGAN:
+    """Class for the cycleGAN model that takes speech to vocal and vice versa
 
-    def __init__(self, batch_size = 32, virtual_batch_size = 1, num_epochs = 10, smart_discriminator = False):
+    Attributes
+    ----------
+    self.generator_vocal : Waveunet
+        The generator that takes speech and instrumental to produce singing
+    self.generator_speech : Waveunet
+        The generator that takes singing and produces speech
+    self.discriminator_vocal : TsaiMiniRocketDiscriminator
+        The discriminator that determines whether a vocal is organic or 
+        machine-generated
+    self.discriminator_speech : TsaiMiniRocketDiscriminator
+        The discriminator that determines whether speech is organic or 
+        machine-generated
+    self.device : torch.device
+        The device on which computations run. GPU is necessary
+    self.optimizer_DV : torch.optim.Adam
+        Adam optimizer for discriminator_vocal
+    self.optimizer_DS : torch.optim.Adam
+        Adam optimizer for discriminator_speech
+    self.optimizer_GV : torch.optim.Adam
+        Adam optimizer for generator_vocal
+    self.optimizer_GS : torch.optim.Adam
+        Adam optimizer for generator_speech
+    self.acc_voc_loader : torch.utils.data.DataLoader
+        Data loader for matched pairs of vocal and accompaniment (Musdb data)
+    self.speech_loader : torch.utils.data.DataLoader
+        Data loader for speech data (LibriSpeech data)
+    self.acc_loader : torch.utils.data.DataLoader
+        Data loader for instrumental with no matched vocal (LibriSpeech data)
+    self.bce_loss : function
+        Binary cross entropy function
+    self.l1_loss : function
+        L1 loss function
+    self.mse_loss : function
+        Mean square error loss function
+    lambda_l1 : float
+        weight for adversarial loss in training generator
+    lambda_cycle : float
+        weight for cycle loss in training generator
+    lambda_identity : float
+        weight for identity loss in training generator
+    virtual_batch_size : int
+        Virtual batch size
+    clip_length : int
+        Length of time dimension in data spectrograms. Determined dynamically
+    input_size_generators : int
+        Length of time dimension for input to Wave-U-Net. Determined dynamically
+    num_workers : int
+        Number of workers on device
+    smart_discriminator : bool
+        If False, discriminator weights are only updated when it is fooled more than
+        a threshold. If True, discriminator weights update every virtual batch
+    batch_size : int
+    
+
+    Methods
+    -------
+    __init__(self, batch_size = 32, virtual_batch_size = 1, num_epochs = 10, smart_discriminator = False) 
+        returns initialized instance
+    fit(self, musdb_dataset, librispeech_dataset)
+        Creates generators, discriminators, dataloaders with correct paramters for the
+        given datasets
+    train_epoch_random_accomp(self)
+        One epoch of the training loop
+    train(self, num_epochs) 
+        run training loop num_epoch many times
+    generate_vocal(self, speech, accompaniment, sample_rate = 44100)
+        Takes speech and accompaniment log mel spectrograms and outputs a synthesized vocal    
+    generate_speech(self, vocal, sample_rate = 44100)
+        Takes a vocal log mel spectrograms and outputs a synthesized vocal
+    mel_to_audio(self, spec, sample_rate = 44100)
+        Convert from log mel spectrogram to audio using the classical Griffin-Lim algorithm
+    _pad_spectrogram(self, batch)
+        pad a spectrogram to input to generator models    
+    _convex_comb
+        Compute convex combination of losses according to model weights
+    """
+    def __init__(self, batch_size = 32, virtual_batch_size = 1, smart_discriminator = False):
+        """Returns instance
+        
+        Arguments
+        ---------
+        batch_size : int, optional
+            batch size for training
+        virtual_batch_size : int, optional
+            virtual batch size for training
+        smart_discriminator : bool, optional
+            If False, discriminator weights are only updated when it is fooled more than
+            a threshold. If True, discriminator weights update every virtual batch
+        """
         cuda = torch.cuda.is_available()
         if cuda:
             self.device = torch.device('cuda')
@@ -71,11 +161,19 @@ class VocalCycleGAN:
         self.num_workers = default_train_parameters["num_workers"]
         self.smart_discriminator = smart_discriminator
         self.batch_size = batch_size
-        self.num_epochs = num_epochs
 
-	
+    
     def fit(self, musdb_dataset, librispeech_dataset):
+        """
+        Set up the model with parameters from datasets
 
+        Arguments
+        ---------
+        musdb_dataset : MusdbDataset
+            The Dataset object for MUSDB data
+        librispeech_dataset : LibriSpeechDataset
+            The dataset object for speech data
+        """
         musdb_length = musdb_dataset.mel_specs.shape[-1]
         librispeech_length = librispeech_dataset.mel_specs.shape[-1]
 
@@ -173,6 +271,9 @@ class VocalCycleGAN:
 
 
     def train_epoch_random_accomp(self):
+        """Defines one epoch of the CycleGAN training loop. See readme file for training
+        algorithm description and loss functions."""
+
         total_loss_DV = total_loss_DS = total_loss_GV = total_loss_GS = 0
         total_loss_adv_vocal = total_loss_adv_speech = total_loss_cycle_vocal = total_loss_cycle_speech = 0.0
         # Optionally record gradient norms per batch for diagnosing vanishing gradients.
@@ -367,10 +468,10 @@ class VocalCycleGAN:
             "num_DS_updates" : len(grad_norms_DS)
         }
 
-    def train(self):
-        ############ MISSING SUMMARY WRITER CODE #################
-        for epoch in range(self.num_epochs):
-            print(f"\n=== Epoch {epoch+1}/{self.num_epochs} ===")
+    def train(self, num_epochs = 10):
+        """Train for num_epochs epochs"""
+        for epoch in range(num_epochs):
+            print(f"\n=== Epoch {epoch+1}/{num_epochs} ===")
             epoch_metrics = self.train_epoch_random_accomp()
 
             print(f"Epoch {epoch+1} Metrics:")
@@ -391,7 +492,62 @@ class VocalCycleGAN:
             print(f"  num_DV_updates:    {epoch_metrics['num_DV_updates']:.4f}")
             print(f"  num_DS_updates:    {epoch_metrics['num_DS_updates']:.4f}")
 
-        ################ NEED TO LOG METRICS TO TENSORBOARD #####################
+
+
+    def generate_vocal(self, speech, accompaniment, sample_rate = 44100):
+        """Returns vocal audio from speech and accompaniment spectrogram tensors.
+        User must guarantee that tensors are the same size as the input data
+        from the MusdbDataset and LibriSpeechDataset
+
+        Arguments
+        ---------
+        speech : torch.Tensor
+            a tensor of size (128, window_size) storing a log mel spectrogram
+            of the speech information
+        accompaniment : torch.Tensor
+            a tensor of size (128, window_size) storing a log mel spectrogram
+            of the accompaniment information
+        sample rate : int, optional
+            sample rate of output audio
+        """
+        combined_spec = torch.cat([torch.unsqueeze(speech, 0), torch.unsqueeze(accompaniment, 0)], dim=1)
+        combined_spec_pad = self._pad_spectrogram(combined_spec)
+        gen_vocal = self.generator_vocal(combined_spec_pad)["vocal"][0]
+
+        return self.mel_to_audio(gen_vocal)
+
+
+    def generate_speech(self, vocal, sample_rate = 44100):
+        """Returns speech audio from vocal spectrogram tensor.
+        User must guarantee that tensors are the same size as the input data
+        from the MusdbDataset and LibriSpeechDataset
+
+        Arguments
+        ---------
+        vocal : torch.Tensor
+            a tensor of size (128, window_size) storing a log mel spectrogram
+            of the vocal information
+        sample rate : int, optional
+            sample rate of output audio
+        """
+        vocal_pad = self._pad_spectogram(vocal)
+        gen_speech = self.generator_speech(vocal_pad)["speech"]
+
+        return self.mel_to_audio(gen_speech)
+
+
+    def mel_to_audio(self, spec, sample_rate = 44100):
+        """Convert a log mel spectrogram and produce audio.
+        
+        Arguments
+        ---------
+        spec : torch.Tensor
+            a tensor of size (128, *) storing a log mel spectrogram
+        sample_rate = int, optional
+            sample rate
+        """
+        numpy_spec = librosa.db_to_power(spec.detach().cpu().numpy())
+        return librosa.feature.inverse.mel_to_audio(M = numpy_spec, sr = sample_rate)
 
 
     def _pad_spectrogram(self, batch):
@@ -407,4 +563,4 @@ class VocalCycleGAN:
 
     def _convex_comb(self, adv, cycle, identity):
         den = (1 + self.lambda_cycle + self.lambda_identity)
-        return (adv + self.lambda_cycle * cycle + self.lambda_identity * identity) / den#from datasetClasses import MusdbDataset, LibriSpeechDataset, AccompanimentVocalData, SpeechData
+        return (adv + self.lambda_cycle * cycle + self.lambda_identity * identity) / den
