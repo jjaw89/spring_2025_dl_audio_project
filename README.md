@@ -39,8 +39,7 @@ Handling raw audio data can be difficult for neural networks storing audio as a 
 The result is a tensor of size (128, window_size). Notice that taking the absolute value of a complex number destroys the phase information. Thus, this process is not invertible. However, the [Griffin-Lim](https://librosa.org/doc/main/generated/librosa.griffinlim.html) algorithm approximates the phase information which allows us to convert spectrograms into audio. One could train a vocoder to approximate phase information to achieve a better conversion.
 
 ## Training
-Before we trained our final model we tested the various loss parameters. The first model we trained had an adversarial loss weighted equally to the cycle loss. The result was a model that outputted silence.
-Lowering the cycle loss by a factor of 1000 gave us a model that produced melodic tones with no discernable words. We then gave the identity loss the same weight as the cycle loss. The model left the speech unchanged. Decreasing the identity loss by a factor of 100 gave us clear words whose tone had been changed.
+Before training our final model, we tested various loss parameter settings. Our first model had the adversarial loss weighted equally to the cycle loss, but it produced only silence. Lowering the cycle loss by a factor of 1000 resulted in melodic tones without any words. Next, we set the identity loss to the same weight as the cycle loss, which caused the model to leave the speech unchanged. Finally, decreasing the identity loss by a factor of 100 produced discernible words with altered tone.
 | Cycle Loss | Identity Loss |Generated Vocals                  |
 |:--------------|:-----------|:-----------------------------------|
 | 1             | 0           | silent                             |
