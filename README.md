@@ -15,8 +15,8 @@ We have four neural networks in our training loop:
 
 Both discriminators output a number between zero and one representing the probability that a sample is real. So the discriminator outputs smaller values when it thinks the sample is fake.
 
-To train the discriminators, we minimize two types of loss function:
-- Binary cross entropy of the predictions of each generator
+To train the discriminators, we minimize two loss functions:
+- Binary cross entropy of the predictions of each generator.
 - Adversarial loss : $\sum_x D(G(x))^2$ where $x$ is a piece of sample data, $D$ is the discriminator, and $G$ is the generator. Minimizing this encourages the discriminator to not be fooled by the generator.
 
 To train the generators, we minimize three loss functions:
