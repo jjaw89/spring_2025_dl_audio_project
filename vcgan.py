@@ -32,10 +32,6 @@ default_train_parameters = {
     "lambda_cycle": .001,
     "lambda_identity": .00001,
 
-
-    # bookkeeping
-    #"log_dir":       f"runs/cycleGAN_experiment_{now}",
-    #"model_dir":     "models",
 }
 
 
@@ -468,8 +464,21 @@ class VocalCycleGAN:
             "num_DS_updates" : len(grad_norms_DS)
         }
 
-    def train(self, num_epochs = 10):
-        """Train for num_epochs epochs"""
+    def train(self, num_epochs = 10, lambda_cycle = default_train_parameters["lambda_cycle"], lambda_identity = default_train_parameters["lambda_identity"]):
+        """Train for num_epochs epochs
+        
+        Arguments
+        ---------
+        num_epochs : int, optional
+            number of epochs for training
+        lambda_cycle : float, optional
+            weight for the cycle loss in training
+        lambda_identity : float, optional
+            weight for identity loss in training
+        """
+        self.lambda_cycle = lambda_cycle
+        self.lambda_identity = lambda_identity
+        
         for epoch in range(num_epochs):
             print(f"\n=== Epoch {epoch+1}/{num_epochs} ===")
             epoch_metrics = self.train_epoch_random_accomp()
