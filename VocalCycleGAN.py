@@ -401,7 +401,7 @@ class VocalCycleGAN:
         if delta > 0:
             left_pad_len = (delta // 2) + (delta % 2)
             right_pad_len = delta // 2
-            batch_pad = F.pad(batch, (left_pad_len, right_pad_len), "constant", 0)
+            batch_pad = F.pad(batch, (left_pad_len, right_pad_len), "constant", -80)
 
         return batch_pad
 
