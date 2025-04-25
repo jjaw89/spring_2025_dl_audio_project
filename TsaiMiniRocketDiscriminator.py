@@ -1,11 +1,11 @@
-# MiniRocket Discriminator using tsai library
-
+import multiprocessing
 import torch
 import torch.nn as nn
 import numpy as np
+from torch.nn.utils import spectral_norm
 from sktime.transformations.panel.rocket import MiniRocketMultivariate
 
-
+# MiniRocket Discriminator using tsai library
 class TsaiMiniRocketDiscriminator(nn.Module):
     def __init__(
         self,
@@ -16,6 +16,10 @@ class TsaiMiniRocketDiscriminator(nn.Module):
         output_dim=1,
         accompaniment = True   # whether or not we feed accompaniment
     ):
+        num_cores = multiprocessing.cpu_count()
+        print("Number of CPU cores:", num_cores)
+        minirocket_n_jobs = num_cores - 4
+
         super(TsaiMiniRocketDiscriminator, self).__init__()
 
         # This is the mini rocket transformer which extracts features
@@ -32,24 +36,21 @@ class TsaiMiniRocketDiscriminator(nn.Module):
 
         self.feature_dim = num_kernels  # For vocals + accompaniment
 
-        if self.accompaniment:
-            classifier_input_dim = 19992
-        else:
-            classifier_input_dim = 9996
+        classifier_input_dim = 9996
 
         # Example feature reducing layers
         self.classifier = nn.Sequential(
             # First reduce the massive dimension to something manageable
-            nn.Dropout(0.3),
+            # nn.Dropout(0.3),
             spectral_norm(nn.Linear(classifier_input_dim, hidden_dim)),
             nn.LeakyReLU(0.2),
             nn.Dropout(0.3),
 
             # Second hidden layer
-            nn.Dropout(0.3),
+            # nn.Dropout(0.3),
             spectral_norm(nn.Linear(hidden_dim, hidden_dim // 2)),
             nn.LeakyReLU(0.2),
-            nn.Dropout(0.3),
+            # nn.Dropout(0.3),
 
             # Final classification layer
             nn.Dropout(0.3),
@@ -57,20 +58,28 @@ class TsaiMiniRocketDiscriminator(nn.Module):
             nn.Sigmoid()
             # nn.Tanh()
         )
-        
-    def fit_rocket(self, spectrograms):
+
+    def fit_rocket(self, vocals, accompaniment = None):
         """
             Fit MiniRocket with just one piece of vocal training data (not the entire training dataset)
         """
         if not self.fitted:
             try:
+                if accompaniment:
+                    spectrograms = torch.cat((vocals, accompaniment), dim = 1)
+                else:
+                    spectrograms = vocals
+
                 # Reshape for MiniRocket - it expects (n_instances, n_dimensions, series_length)
                 # flatten the freq_bins dimension to create a multivariate time series
                 batch_size = spectrograms.shape[0]
 
                 # Convert first to numpy for sktime processing
                 sample_data = spectrograms.detach().cpu().numpy()
-                
+                # print(sample_data.shape)
+                # Reshape to sktime's expected format - reduce to single sample for fitting
+                # sample_data = sample_data[:, 0]  # Take one sample, remove channel dim
+
                 # Fit on this sample
                 self.rocket.fit(sample_data)
                 self.fitted = True
@@ -96,11 +105,21 @@ class TsaiMiniRocketDiscriminator(nn.Module):
             # Convert to numpy for sktime
             spec_np = spectrogram.detach().cpu().numpy()
 
-            
+            # Remove channel dimension expected by sktime
+            # print(spec_np.shape)
+            # spec_np = spec_np[:, 0]  # [batch_size, freq_bins, time_frames]
+            # print(spec_np.shape)
+
             # This step extracts features using the convolutional kernels, numbers specified by num_kernels
+            # print("1")
             features = self.rocket.transform(spec_np)
+            # print("2")
             # Convert back to torch tensor
+            # print("features:", features.shape)
+            # print(features.head())
             features_tensor = torch.tensor(features.values).to(spectrogram.device)
+            # print("features:", features.shape)
+            # print("3")
             return features_tensor
 
         except Exception as e:
@@ -118,16 +137,19 @@ class TsaiMiniRocketDiscriminator(nn.Module):
             accompaniment: Spectrograms of shape [batch_size, channels, freq_bins, time_frames]
         """
         # Extract features from both spectrograms
-        vocal_features = self.extract_features(vocals)
+        # start_time = time()
+#        vocal_features = self.extract_features(vocals)
 
         if self.accompaniment:
-            accomp_features = self.extract_features(accompaniment)
-            # Concatenate features (conditional GAN)
-            output_features = torch.cat([vocal_features, accomp_features], dim=1)
+          input = torch.cat((vocals, accompaniment), dim=1)
+          # print(combined_features.size())
         else:
-            output_features = vocal_features
+          input = vocals
 
         # Classify as real/fake
+        # print(combined_features.size())
+        output_features = self.extract_features(input)
         validity = self.classifier(output_features)
 
         return validity
+

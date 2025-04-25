@@ -1,3 +1,5 @@
+# TODO - Documentation for AccompanimentData
+
 import os
 import stempeg
 import musdb
@@ -231,8 +233,8 @@ class AccompanimentVocalData(Dataset):
       # Half the remainder goes to the front
       left_pad_len = (delta // 2) + (delta % 2)  # 17
       right_pad_len = delta // 2                # 16
-      acc_pad = F.pad(acc, (left_pad_len, right_pad_len), "constant", 0)
-      voc_pad = F.pad(voc, (left_pad_len, right_pad_len), "constant", 0)
+      acc_pad = F.pad(acc, (left_pad_len, right_pad_len), "constant", -80)
+      voc_pad = F.pad(voc, (left_pad_len, right_pad_len), "constant", -80)
     else:
       acc_pad = acc
       voc_pad = voc
@@ -273,7 +275,30 @@ class SpeechData(Dataset):
     if delta > 0:
       left_pad_len = (delta // 2) + (delta % 2)
       right_pad_len = delta // 2
-      speech_pad = F.pad(speech, (left_pad_len, right_pad_len), "constant", 0)
+      speech_pad = F.pad(speech, (left_pad_len, right_pad_len), "constant", -80)
     else:
       speech_pad = speech
     return {"no_pad" : speech, "pad" : speech_pad}
+
+
+class AccompanimentData(Dataset):
+  def __init__(self, musdb_dataset, output_length = 289):
+    self.musdb = musdb_dataset
+    self.out_len = output_length
+
+  def __len__(self):
+    return len(self.musdb)
+
+  def __getitem__(self, ndx):
+    acc, _, _ = self.musdb[ndx]
+    delta = self.out_len - acc.size(-1)
+
+    if delta > 0:
+      # Half the remainder goes to the front
+      left_pad_len = (delta // 2) + (delta % 2)  # 17
+      right_pad_len = delta // 2                # 16
+      acc_pad = F.pad(acc, (left_pad_len, right_pad_len), "constant", -80)
+    else:
+      acc_pad = acc
+
+    return {"no_pad" : acc, "pad": acc_pad,}
