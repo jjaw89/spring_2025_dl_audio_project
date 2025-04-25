@@ -7,7 +7,7 @@ from sktime.transformations.panel.rocket import MiniRocketMultivariate
 
 # MiniRocket Discriminator using tsai library
 class TsaiMiniRocketDiscriminator(nn.Module):
-        """A PyTorch module that implements a discriminator using the MiniRocket time series feature extraction algorithm from the tsai library.
+    """A PyTorch module that implements a discriminator using the MiniRocket time series feature extraction algorithm from the tsai library.
 
     This is a discriminator designed for distinguishing between real and synthetic audio, where the input data consists of spectrograms 
     of audio signals (vocals and potentially accompaniment).
