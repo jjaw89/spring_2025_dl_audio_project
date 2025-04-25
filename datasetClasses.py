@@ -1,5 +1,3 @@
-# TODO - Documentation for AccompanimentData
-
 import os
 import stempeg
 import musdb
@@ -251,7 +249,7 @@ class SpeechData(Dataset):
 
   Attribubes
   ----------
-  musdb : MusdbDataset
+  librispeech_dataset : LibriSpeechDataset
     the Dataset with speech spectrograms
   output_length : int, optional
     the size of spectrograms the generator Wave-U-Net models expect
@@ -282,6 +280,15 @@ class SpeechData(Dataset):
 
 
 class AccompanimentData(Dataset):
+  """A wrapper to handle padding only accompaniment samples from the MusdbDataset
+
+  Attribubes
+  ----------
+  musdb : MusdbDataset
+    the Dataset with accompaniment and vocal spectrograms
+  output_length : int, optional
+    the size of spectrograms the generator Wave-U-Net models expect
+  """
   def __init__(self, musdb_dataset, output_length = 289):
     self.musdb = musdb_dataset
     self.out_len = output_length
@@ -290,6 +297,7 @@ class AccompanimentData(Dataset):
     return len(self.musdb)
 
   def __getitem__(self, ndx):
+    """Only outputs accompaniment spectrogram."""
     acc, _, _ = self.musdb[ndx]
     delta = self.out_len - acc.size(-1)
 
