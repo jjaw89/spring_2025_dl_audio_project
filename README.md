@@ -1,8 +1,8 @@
 # spring_2025_dl_audio_project - VocalCycleGAN
-Erdos deep learning bootcamp final project
+Erdos deep learning bootcamp final project - Spring 2025
 
 ## Introduction
-The goal of this project was to create a model that, when given plain speech and some instrumental music, generates a vocal track from the speech that both suits the music and sounds like the speeker was singing. We used a CycleGAN with [Wave-U-Net-Pytorch](https://github.com/f90/Wave-U-Net-Pytorch/tree/master) by Daniel Stoller acting as the generative models and [MINIROCKETPlus](https://timeseriesai.github.io/tsai/models.minirocketplus_pytorch.html) as the discriminator. For the speech, we used [LibriSpeech](https://www.openslr.org/12) and for the music (vocals and accompaniment) we used [MUSDB18](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). We applied Librosa to transform the audio to a mel spectrogram to reduce the size of the inputs to the models. Because this is a lossy transformation, we needed to recover the phase information using the classical Griffin-Lim algorithm in [Librosa](https://librosa.org/doc/latest/index.html#). 
+In this project, we trained a CycleGAN model to transforms speech (along with an instrumental) into a vocal and transforms speech into vocals. The generators are implemented with [Wave-U-Net-Pytorch](https://github.com/f90/Wave-U-Net-Pytorch/tree/master) by Daniel Stoller, and the discriminators are implemented with [MINIROCKETPlus](https://timeseriesai.github.io/tsai/models.minirocketplus_pytorch.html). The speech data comes from [LibriSpeech](https://www.openslr.org/12), and the vocal/instrumental data is sourced from [MUSDB18](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). We leveraged [Librosa](https://librosa.org/doc/latest/index.html#) for audio processing in Python.
 
 ## CycleGAN - Generators, Discriminators, and Losses
 The model class VocalCycleGAN defined in vcgan.py is trained by a modified cycleGAN training loop. CycleGAN was introduced in [2017 by Zhu-Park-Isola-Efros](https://junyanz.github.io/CycleGAN/) to transform between images in two different domains (for example turning images of horses to images of zebras and vice versa). In our cycleGAN framework, the two domains are singing and speech. Let us describe our cycleGAN loop in detail.
@@ -36,7 +36,7 @@ Handling raw audio data can be difficult for neural networks storing audio as a 
 1) Chop the audio into small chunks and compute a Fourier transform. This gives us frequency information at each time step. (The number of time steps in our code is usually stored as window_size). This process is called the short time Fourier transform (STFT).
 2) Take the absolute value of the complex numbers and project onto the [mel scale](https://en.wikipedia.org/wiki/Mel_scale). In our model, we use 128 mel bins.
 3) Convert the values to db (this essentially amounts to taking a logarithm).
-The result is a tensor of size (128, window_size).
+The result is a tensor of size (128, window_size). Notice that taking the absolute value of a complex number destroys the phase information. Thus, this process is not invertible. However, the [Griffin-Lim](https://librosa.org/doc/main/generated/librosa.griffinlim.html) algorithm approximates the phase information which allows us to convert spectrograms into audio. One could train a vocoder to approximate phase information to achieve a better conversion.
 
 ## Training
 TODO: Add graphs of training and description of lambdas
