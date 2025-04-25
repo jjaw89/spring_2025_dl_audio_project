@@ -1,0 +1,5494 @@
+
+=== Epoch 1/50 ===
+Training Batches: 65it [01:16,  1.18s/it]
+Epoch 1 Metrics:
+  Loss_DV:         0.7512
+  Loss_DS:         0.7336
+  Loss_adv_vocal:     0.1735
+  Loss_adv_speech:     0.1649
+  Loss_Cycle Vocal:     23.5501
+  Loss_Cycle Speech:     26.3075
+  Loss_Identity Vocal:     30.0653
+  Loss_Identity Speech:     29.2166
+  Grad Norm DV:    0.7523
+  Grad Norm DS:    0.9174
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0046
+  num_DV_updates:    15.0000
+  num_DS_updates:    14.0000
+
+=== Epoch 2/50 ===
+Training Batches: 65it [01:15,  1.17s/it]
+Epoch 2 Metrics:
+  Loss_DV:         0.7515
+  Loss_DS:         0.5876
+  Loss_adv_vocal:     0.1154
+  Loss_adv_speech:     0.1992
+  Loss_Cycle Vocal:     9.1575
+  Loss_Cycle Speech:     10.5017
+  Loss_Identity Vocal:     15.4101
+  Loss_Identity Speech:     14.6025
+  Grad Norm DV:    0.3659
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0060
+  Grad Norm GS:    0.0075
+  num_DV_updates:    15.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 3/50 ===
+Training Batches: 65it [01:14,  1.14s/it]
+Epoch 3 Metrics:
+  Loss_DV:         0.7417
+  Loss_DS:         0.6545
+  Loss_adv_vocal:     0.1087
+  Loss_adv_speech:     0.1538
+  Loss_Cycle Vocal:     7.3917
+  Loss_Cycle Speech:     8.8523
+  Loss_Identity Vocal:     10.1300
+  Loss_Identity Speech:     11.9215
+  Grad Norm DV:    0.1464
+  Grad Norm DS:    1.3821
+  Grad Norm GV:    0.0035
+  Grad Norm GS:    0.0041
+  num_DV_updates:    16.0000
+  num_DS_updates:    7.0000
+
+=== Epoch 4/50 ===
+Training Batches: 65it [01:14,  1.15s/it]
+Epoch 4 Metrics:
+  Loss_DV:         0.7379
+  Loss_DS:         0.7572
+  Loss_adv_vocal:     0.1093
+  Loss_adv_speech:     0.0862
+  Loss_Cycle Vocal:     6.5361
+  Loss_Cycle Speech:     8.5947
+  Loss_Identity Vocal:     7.6687
+  Loss_Identity Speech:     10.6504
+  Grad Norm DV:    0.1896
+  Grad Norm DS:    0.2796
+  Grad Norm GV:    0.0022
+  Grad Norm GS:    0.0019
+  num_DV_updates:    16.0000
+  num_DS_updates:    18.0000
+
+=== Epoch 5/50 ===
+Training Batches: 65it [01:15,  1.16s/it]
+Epoch 5 Metrics:
+  Loss_DV:         0.7327
+  Loss_DS:         0.6357
+  Loss_adv_vocal:     0.1095
+  Loss_adv_speech:     0.1449
+  Loss_Cycle Vocal:     6.0047
+  Loss_Cycle Speech:     8.3001
+  Loss_Identity Vocal:     7.1417
+  Loss_Identity Speech:     9.9419
+  Grad Norm DV:    0.1899
+  Grad Norm DS:    0.3473
+  Grad Norm GV:    0.0032
+  Grad Norm GS:    0.0041
+  num_DV_updates:    16.0000
+  num_DS_updates:    11.0000
+
+=== Epoch 6/50 ===
+Training Batches: 65it [01:14,  1.15s/it]
+Epoch 6 Metrics:
+  Loss_DV:         0.7217
+  Loss_DS:         0.6723
+  Loss_adv_vocal:     0.1125
+  Loss_adv_speech:     0.1073
+  Loss_Cycle Vocal:     5.7884
+  Loss_Cycle Speech:     7.5534
+  Loss_Identity Vocal:     7.2712
+  Loss_Identity Speech:     9.2429
+  Grad Norm DV:    0.2038
+  Grad Norm DS:    0.2866
+  Grad Norm GV:    0.0052
+  Grad Norm GS:    0.0067
+  num_DV_updates:    16.0000
+  num_DS_updates:    14.0000
+
+=== Epoch 7/50 ===
+Training Batches: 65it [01:15,  1.17s/it]
+Epoch 7 Metrics:
+  Loss_DV:         0.7063
+  Loss_DS:         0.6351
+  Loss_adv_vocal:     0.1167
+  Loss_adv_speech:     0.1257
+  Loss_Cycle Vocal:     5.7994
+  Loss_Cycle Speech:     6.8482
+  Loss_Identity Vocal:     6.9715
+  Loss_Identity Speech:     8.8479
+  Grad Norm DV:    0.2694
+  Grad Norm DS:    0.2836
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0087
+  num_DV_updates:    15.0000
+  num_DS_updates:    12.0000
+
+=== Epoch 8/50 ===
+Training Batches: 65it [01:15,  1.16s/it]
+Epoch 8 Metrics:
+  Loss_DV:         0.6947
+  Loss_DS:         0.6407
+  Loss_adv_vocal:     0.1191
+  Loss_adv_speech:     0.1210
+  Loss_Cycle Vocal:     5.5142
+  Loss_Cycle Speech:     6.2866
+  Loss_Identity Vocal:     6.6864
+  Loss_Identity Speech:     8.7532
+  Grad Norm DV:    0.3108
+  Grad Norm DS:    0.3640
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0081
+  num_DV_updates:    14.0000
+  num_DS_updates:    11.0000
+
+=== Epoch 9/50 ===
+Training Batches: 65it [01:15,  1.16s/it]
+Epoch 9 Metrics:
+  Loss_DV:         0.6808
+  Loss_DS:         0.6410
+  Loss_adv_vocal:     0.1192
+  Loss_adv_speech:     0.1177
+  Loss_Cycle Vocal:     5.2513
+  Loss_Cycle Speech:     5.9302
+  Loss_Identity Vocal:     6.3784
+  Loss_Identity Speech:     8.4457
+  Grad Norm DV:    0.2678
+  Grad Norm DS:    0.3024
+  Grad Norm GV:    0.0055
+  Grad Norm GS:    0.0058
+  num_DV_updates:    14.0000
+  num_DS_updates:    12.0000
+
+=== Epoch 10/50 ===
+Training Batches: 65it [01:13,  1.14s/it]
+Epoch 10 Metrics:
+  Loss_DV:         0.6723
+  Loss_DS:         0.6280
+  Loss_adv_vocal:     0.1192
+  Loss_adv_speech:     0.1238
+  Loss_Cycle Vocal:     5.1791
+  Loss_Cycle Speech:     5.8616
+  Loss_Identity Vocal:     6.0588
+  Loss_Identity Speech:     8.1331
+  Grad Norm DV:    0.3421
+  Grad Norm DS:    0.3845
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0076
+  num_DV_updates:    13.0000
+  num_DS_updates:    10.0000
+
+=== Epoch 11/50 ===
+Training Batches: 65it [01:13,  1.14s/it]
+Epoch 11 Metrics:
+  Loss_DV:         0.6641
+  Loss_DS:         0.6426
+  Loss_adv_vocal:     0.1203
+  Loss_adv_speech:     0.1145
+  Loss_Cycle Vocal:     5.0166
+  Loss_Cycle Speech:     5.7453
+  Loss_Identity Vocal:     5.8718
+  Loss_Identity Speech:     7.9120
+  Grad Norm DV:    0.4034
+  Grad Norm DS:    0.2859
+  Grad Norm GV:    0.0061
+  Grad Norm GS:    0.0065
+  num_DV_updates:    12.0000
+  num_DS_updates:    13.0000
+
+=== Epoch 12/50 ===
+Training Batches: 65it [01:13,  1.13s/it]
+Epoch 12 Metrics:
+  Loss_DV:         0.6534
+  Loss_DS:         0.6006
+  Loss_adv_vocal:     0.1162
+  Loss_adv_speech:     0.1385
+  Loss_Cycle Vocal:     5.0436
+  Loss_Cycle Speech:     5.7548
+  Loss_Identity Vocal:     5.8405
+  Loss_Identity Speech:     7.7479
+  Grad Norm DV:    0.3104
+  Grad Norm DS:    4.1593
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0075
+  num_DV_updates:    13.0000
+  num_DS_updates:    1.0000
+
+=== Epoch 13/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 13 Metrics:
+  Loss_DV:         0.6482
+  Loss_DS:         0.7093
+  Loss_adv_vocal:     0.1245
+  Loss_adv_speech:     0.0902
+  Loss_Cycle Vocal:     5.4164
+  Loss_Cycle Speech:     6.0570
+  Loss_Identity Vocal:     6.0879
+  Loss_Identity Speech:     7.8785
+  Grad Norm DV:    0.9646
+  Grad Norm DS:    0.5202
+  Grad Norm GV:    0.0093
+  Grad Norm GS:    0.0108
+  num_DV_updates:    6.0000
+  num_DS_updates:    12.0000
+
+=== Epoch 14/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 14 Metrics:
+  Loss_DV:         0.6967
+  Loss_DS:         0.6683
+  Loss_adv_vocal:     0.1083
+  Loss_adv_speech:     0.1064
+  Loss_Cycle Vocal:     5.4836
+  Loss_Cycle Speech:     6.1153
+  Loss_Identity Vocal:     6.0658
+  Loss_Identity Speech:     7.9725
+  Grad Norm DV:    0.1818
+  Grad Norm DS:    0.1633
+  Grad Norm GV:    0.0093
+  Grad Norm GS:    0.0109
+  num_DV_updates:    17.0000
+  num_DS_updates:    16.0000
+
+=== Epoch 15/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 15 Metrics:
+  Loss_DV:         0.5931
+  Loss_DS:         0.5895
+  Loss_adv_vocal:     0.1634
+  Loss_adv_speech:     0.1498
+  Loss_Cycle Vocal:     5.1077
+  Loss_Cycle Speech:     5.7809
+  Loss_Identity Vocal:     6.0090
+  Loss_Identity Speech:     7.9552
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0088
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 16/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 16 Metrics:
+  Loss_DV:         0.5948
+  Loss_DS:         0.5907
+  Loss_adv_vocal:     0.1631
+  Loss_adv_speech:     0.1494
+  Loss_Cycle Vocal:     4.9106
+  Loss_Cycle Speech:     5.5884
+  Loss_Identity Vocal:     5.8390
+  Loss_Identity Speech:     7.7701
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 17/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 17 Metrics:
+  Loss_DV:         0.5954
+  Loss_DS:         0.5932
+  Loss_adv_vocal:     0.1625
+  Loss_adv_speech:     0.1483
+  Loss_Cycle Vocal:     4.7238
+  Loss_Cycle Speech:     5.3706
+  Loss_Identity Vocal:     5.6878
+  Loss_Identity Speech:     7.5154
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0053
+  Grad Norm GS:    0.0052
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 18/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 18 Metrics:
+  Loss_DV:         0.5979
+  Loss_DS:         0.5947
+  Loss_adv_vocal:     0.1610
+  Loss_adv_speech:     0.1473
+  Loss_Cycle Vocal:     4.6655
+  Loss_Cycle Speech:     5.1656
+  Loss_Identity Vocal:     5.6840
+  Loss_Identity Speech:     7.3027
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0055
+  Grad Norm GS:    0.0055
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 19/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 19 Metrics:
+  Loss_DV:         0.6431
+  Loss_DS:         0.5950
+  Loss_adv_vocal:     0.1371
+  Loss_adv_speech:     0.1471
+  Loss_Cycle Vocal:     4.6381
+  Loss_Cycle Speech:     4.9369
+  Loss_Identity Vocal:     5.7372
+  Loss_Identity Speech:     7.1645
+  Grad Norm DV:    0.9341
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0065
+  num_DV_updates:    6.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 20/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 20 Metrics:
+  Loss_DV:         0.7274
+  Loss_DS:         0.5972
+  Loss_adv_vocal:     0.1013
+  Loss_adv_speech:     0.1468
+  Loss_Cycle Vocal:     4.5904
+  Loss_Cycle Speech:     4.7888
+  Loss_Identity Vocal:     5.7234
+  Loss_Identity Speech:     7.1214
+  Grad Norm DV:    0.2194
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0061
+  num_DV_updates:    18.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 21/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 21 Metrics:
+  Loss_DV:         0.6000
+  Loss_DS:         0.5960
+  Loss_adv_vocal:     0.1728
+  Loss_adv_speech:     0.1467
+  Loss_Cycle Vocal:     4.5439
+  Loss_Cycle Speech:     4.7195
+  Loss_Identity Vocal:     5.6680
+  Loss_Identity Speech:     7.0690
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 22/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 22 Metrics:
+  Loss_DV:         0.6011
+  Loss_DS:         0.5965
+  Loss_adv_vocal:     0.1726
+  Loss_adv_speech:     0.1464
+  Loss_Cycle Vocal:     4.5615
+  Loss_Cycle Speech:     4.6963
+  Loss_Identity Vocal:     5.6500
+  Loss_Identity Speech:     7.0080
+  Grad Norm DV:    4.2103
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0068
+  num_DV_updates:    1.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 23/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 23 Metrics:
+  Loss_DV:         0.7763
+  Loss_DS:         0.5970
+  Loss_adv_vocal:     0.0856
+  Loss_adv_speech:     0.1464
+  Loss_Cycle Vocal:     4.5463
+  Loss_Cycle Speech:     4.6714
+  Loss_Identity Vocal:     5.6196
+  Loss_Identity Speech:     6.9830
+  Grad Norm DV:    0.6798
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0062
+  num_DV_updates:    12.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 24/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 24 Metrics:
+  Loss_DV:         0.7133
+  Loss_DS:         0.5974
+  Loss_adv_vocal:     0.1083
+  Loss_adv_speech:     0.1465
+  Loss_Cycle Vocal:     4.4959
+  Loss_Cycle Speech:     4.6228
+  Loss_Identity Vocal:     5.6075
+  Loss_Identity Speech:     6.9712
+  Grad Norm DV:    0.1281
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0061
+  Grad Norm GS:    0.0060
+  num_DV_updates:    17.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 25/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 25 Metrics:
+  Loss_DV:         0.6585
+  Loss_DS:         0.5965
+  Loss_adv_vocal:     0.1366
+  Loss_adv_speech:     0.1467
+  Loss_Cycle Vocal:     4.4279
+  Loss_Cycle Speech:     4.5746
+  Loss_Identity Vocal:     5.6037
+  Loss_Identity Speech:     6.9311
+  Grad Norm DV:    0.2513
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0055
+  Grad Norm GS:    0.0053
+  num_DV_updates:    12.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 26/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 26 Metrics:
+  Loss_DV:         0.6901
+  Loss_DS:         0.5969
+  Loss_adv_vocal:     0.0974
+  Loss_adv_speech:     0.1463
+  Loss_Cycle Vocal:     4.3648
+  Loss_Cycle Speech:     4.5436
+  Loss_Identity Vocal:     5.5013
+  Loss_Identity Speech:     6.8768
+  Grad Norm DV:    0.1887
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0062
+  num_DV_updates:    15.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 27/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 27 Metrics:
+  Loss_DV:         0.6477
+  Loss_DS:         0.5973
+  Loss_adv_vocal:     0.1176
+  Loss_adv_speech:     0.1463
+  Loss_Cycle Vocal:     4.3664
+  Loss_Cycle Speech:     4.5320
+  Loss_Identity Vocal:     5.5292
+  Loss_Identity Speech:     6.8378
+  Grad Norm DV:    0.2356
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0063
+  num_DV_updates:    12.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 28/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 28 Metrics:
+  Loss_DV:         0.6527
+  Loss_DS:         0.5966
+  Loss_adv_vocal:     0.1074
+  Loss_adv_speech:     0.1466
+  Loss_Cycle Vocal:     4.3524
+  Loss_Cycle Speech:     4.4896
+  Loss_Identity Vocal:     5.4963
+  Loss_Identity Speech:     6.7906
+  Grad Norm DV:    0.2514
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0066
+  num_DV_updates:    13.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 29/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 29 Metrics:
+  Loss_DV:         0.6309
+  Loss_DS:         0.5967
+  Loss_adv_vocal:     0.1206
+  Loss_adv_speech:     0.1463
+  Loss_Cycle Vocal:     4.3084
+  Loss_Cycle Speech:     4.4245
+  Loss_Identity Vocal:     5.4988
+  Loss_Identity Speech:     6.7346
+  Grad Norm DV:    0.4785
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0057
+  Grad Norm GS:    0.0056
+  num_DV_updates:    8.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 30/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 30 Metrics:
+  Loss_DV:         0.6606
+  Loss_DS:         0.5977
+  Loss_adv_vocal:     0.1009
+  Loss_adv_speech:     0.1462
+  Loss_Cycle Vocal:     4.3064
+  Loss_Cycle Speech:     4.4053
+  Loss_Identity Vocal:     5.4783
+  Loss_Identity Speech:     6.6794
+  Grad Norm DV:    0.2039
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0059
+  num_DV_updates:    15.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 31/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 31 Metrics:
+  Loss_DV:         0.5787
+  Loss_DS:         0.5970
+  Loss_adv_vocal:     0.1537
+  Loss_adv_speech:     0.1466
+  Loss_Cycle Vocal:     4.3526
+  Loss_Cycle Speech:     4.4033
+  Loss_Identity Vocal:     5.5312
+  Loss_Identity Speech:     6.6620
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 32/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 32 Metrics:
+  Loss_DV:         0.5798
+  Loss_DS:         0.5976
+  Loss_adv_vocal:     0.1536
+  Loss_adv_speech:     0.1461
+  Loss_Cycle Vocal:     4.2948
+  Loss_Cycle Speech:     4.3369
+  Loss_Identity Vocal:     5.5393
+  Loss_Identity Speech:     6.6376
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 33/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 33 Metrics:
+  Loss_DV:         0.5804
+  Loss_DS:         0.5982
+  Loss_adv_vocal:     0.1530
+  Loss_adv_speech:     0.1460
+  Loss_Cycle Vocal:     4.2933
+  Loss_Cycle Speech:     4.3182
+  Loss_Identity Vocal:     5.5154
+  Loss_Identity Speech:     6.6212
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0062
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 34/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 34 Metrics:
+  Loss_DV:         0.5815
+  Loss_DS:         0.5975
+  Loss_adv_vocal:     0.1527
+  Loss_adv_speech:     0.1461
+  Loss_Cycle Vocal:     4.2259
+  Loss_Cycle Speech:     4.2646
+  Loss_Identity Vocal:     5.5319
+  Loss_Identity Speech:     6.5849
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0059
+  Grad Norm GS:    0.0055
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 35/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 35 Metrics:
+  Loss_DV:         0.5822
+  Loss_DS:         0.5986
+  Loss_adv_vocal:     0.1522
+  Loss_adv_speech:     0.1458
+  Loss_Cycle Vocal:     4.2457
+  Loss_Cycle Speech:     4.2360
+  Loss_Identity Vocal:     5.5584
+  Loss_Identity Speech:     6.5621
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 36/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 36 Metrics:
+  Loss_DV:         0.5830
+  Loss_DS:         0.5982
+  Loss_adv_vocal:     0.1517
+  Loss_adv_speech:     0.1459
+  Loss_Cycle Vocal:     4.1779
+  Loss_Cycle Speech:     4.1517
+  Loss_Identity Vocal:     5.5494
+  Loss_Identity Speech:     6.5496
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0058
+  Grad Norm GS:    0.0053
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 37/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 37 Metrics:
+  Loss_DV:         0.5841
+  Loss_DS:         0.6086
+  Loss_adv_vocal:     0.1508
+  Loss_adv_speech:     0.1387
+  Loss_Cycle Vocal:     4.0994
+  Loss_Cycle Speech:     4.0954
+  Loss_Identity Vocal:     5.5157
+  Loss_Identity Speech:     6.5535
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.5715
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    6.0000
+
+=== Epoch 38/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 38 Metrics:
+  Loss_DV:         0.5855
+  Loss_DS:         0.6770
+  Loss_adv_vocal:     0.1500
+  Loss_adv_speech:     0.0991
+  Loss_Cycle Vocal:     4.1145
+  Loss_Cycle Speech:     4.0593
+  Loss_Identity Vocal:     5.5714
+  Loss_Identity Speech:     6.5959
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.2514
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    15.0000
+
+=== Epoch 39/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 39 Metrics:
+  Loss_DV:         0.5852
+  Loss_DS:         0.6122
+  Loss_adv_vocal:     0.1498
+  Loss_adv_speech:     0.1327
+  Loss_Cycle Vocal:     4.1224
+  Loss_Cycle Speech:     4.0133
+  Loss_Identity Vocal:     5.5748
+  Loss_Identity Speech:     6.6267
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.4417
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    7.0000
+
+=== Epoch 40/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 40 Metrics:
+  Loss_DV:         0.5872
+  Loss_DS:         0.6562
+  Loss_adv_vocal:     0.1497
+  Loss_adv_speech:     0.1034
+  Loss_Cycle Vocal:     4.0950
+  Loss_Cycle Speech:     3.9592
+  Loss_Identity Vocal:     5.5871
+  Loss_Identity Speech:     6.6516
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.2728
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    13.0000
+
+=== Epoch 41/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 41 Metrics:
+  Loss_DV:         0.5868
+  Loss_DS:         0.6291
+  Loss_adv_vocal:     0.1491
+  Loss_adv_speech:     0.1142
+  Loss_Cycle Vocal:     4.0596
+  Loss_Cycle Speech:     3.9069
+  Loss_Identity Vocal:     5.6132
+  Loss_Identity Speech:     6.6678
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.2399
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    12.0000
+
+=== Epoch 42/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 42 Metrics:
+  Loss_DV:         0.5880
+  Loss_DS:         0.6161
+  Loss_adv_vocal:     0.1488
+  Loss_adv_speech:     0.1210
+  Loss_Cycle Vocal:     3.9810
+  Loss_Cycle Speech:     3.8459
+  Loss_Identity Vocal:     5.5635
+  Loss_Identity Speech:     6.6515
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.4615
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    7.0000
+
+=== Epoch 43/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 43 Metrics:
+  Loss_DV:         0.5888
+  Loss_DS:         0.6453
+  Loss_adv_vocal:     0.1490
+  Loss_adv_speech:     0.1044
+  Loss_Cycle Vocal:     3.9422
+  Loss_Cycle Speech:     3.8205
+  Loss_Identity Vocal:     5.5506
+  Loss_Identity Speech:     6.6554
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.2405
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0059
+  num_DV_updates:    0.0000
+  num_DS_updates:    14.0000
+
+=== Epoch 44/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 44 Metrics:
+  Loss_DV:         0.5874
+  Loss_DS:         0.5917
+  Loss_adv_vocal:     0.1483
+  Loss_adv_speech:     0.1346
+  Loss_Cycle Vocal:     3.9595
+  Loss_Cycle Speech:     3.7990
+  Loss_Identity Vocal:     5.5482
+  Loss_Identity Speech:     6.6546
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 45/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 45 Metrics:
+  Loss_DV:         0.5880
+  Loss_DS:         0.5911
+  Loss_adv_vocal:     0.1483
+  Loss_adv_speech:     0.1347
+  Loss_Cycle Vocal:     3.9736
+  Loss_Cycle Speech:     3.7914
+  Loss_Identity Vocal:     5.5688
+  Loss_Identity Speech:     6.6484
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 46/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 46 Metrics:
+  Loss_DV:         0.5891
+  Loss_DS:         0.5918
+  Loss_adv_vocal:     0.1476
+  Loss_adv_speech:     0.1345
+  Loss_Cycle Vocal:     4.0198
+  Loss_Cycle Speech:     3.8394
+  Loss_Identity Vocal:     5.5531
+  Loss_Identity Speech:     6.6423
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0077
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 47/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 47 Metrics:
+  Loss_DV:         0.5890
+  Loss_DS:         0.5915
+  Loss_adv_vocal:     0.1480
+  Loss_adv_speech:     0.1343
+  Loss_Cycle Vocal:     3.8850
+  Loss_Cycle Speech:     3.7521
+  Loss_Identity Vocal:     5.4650
+  Loss_Identity Speech:     6.6056
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0060
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 48/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 48 Metrics:
+  Loss_DV:         0.5891
+  Loss_DS:         0.5927
+  Loss_adv_vocal:     0.1478
+  Loss_adv_speech:     0.1339
+  Loss_Cycle Vocal:     3.8037
+  Loss_Cycle Speech:     3.6801
+  Loss_Identity Vocal:     5.4778
+  Loss_Identity Speech:     6.5853
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 49/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 49 Metrics:
+  Loss_DV:         0.5896
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1477
+  Loss_adv_speech:     0.1342
+  Loss_Cycle Vocal:     3.8065
+  Loss_Cycle Speech:     3.6914
+  Loss_Identity Vocal:     5.4698
+  Loss_Identity Speech:     6.6176
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0076
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 50/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 50 Metrics:
+  Loss_DV:         0.5892
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1481
+  Loss_adv_speech:     0.1341
+  Loss_Cycle Vocal:     3.7373
+  Loss_Cycle Speech:     3.6456
+  Loss_Identity Vocal:     5.4543
+  Loss_Identity Speech:     6.6275
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 1/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 1 Metrics:
+  Loss_DV:         0.5890
+  Loss_DS:         0.5934
+  Loss_adv_vocal:     0.1476
+  Loss_adv_speech:     0.1339
+  Loss_Cycle Vocal:     3.7535
+  Loss_Cycle Speech:     3.6534
+  Loss_Identity Vocal:     5.4829
+  Loss_Identity Speech:     6.6525
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 2/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 2 Metrics:
+  Loss_DV:         0.5889
+  Loss_DS:         0.5926
+  Loss_adv_vocal:     0.1477
+  Loss_adv_speech:     0.1339
+  Loss_Cycle Vocal:     3.7448
+  Loss_Cycle Speech:     3.6182
+  Loss_Identity Vocal:     5.4945
+  Loss_Identity Speech:     6.6166
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 3/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 3 Metrics:
+  Loss_DV:         0.5907
+  Loss_DS:         0.5929
+  Loss_adv_vocal:     0.1471
+  Loss_adv_speech:     0.1337
+  Loss_Cycle Vocal:     3.7025
+  Loss_Cycle Speech:     3.5971
+  Loss_Identity Vocal:     5.5157
+  Loss_Identity Speech:     6.6207
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 4/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 4 Metrics:
+  Loss_DV:         0.5903
+  Loss_DS:         0.5929
+  Loss_adv_vocal:     0.1472
+  Loss_adv_speech:     0.1339
+  Loss_Cycle Vocal:     3.6295
+  Loss_Cycle Speech:     3.5524
+  Loss_Identity Vocal:     5.4940
+  Loss_Identity Speech:     6.6233
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0063
+  Grad Norm GS:    0.0058
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 5/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 5 Metrics:
+  Loss_DV:         0.5904
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1473
+  Loss_adv_speech:     0.1335
+  Loss_Cycle Vocal:     3.5754
+  Loss_Cycle Speech:     3.5219
+  Loss_Identity Vocal:     5.4671
+  Loss_Identity Speech:     6.6303
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 6/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 6 Metrics:
+  Loss_DV:         0.5909
+  Loss_DS:         0.5930
+  Loss_adv_vocal:     0.1471
+  Loss_adv_speech:     0.1334
+  Loss_Cycle Vocal:     3.5814
+  Loss_Cycle Speech:     3.5424
+  Loss_Identity Vocal:     5.4855
+  Loss_Identity Speech:     6.6278
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 7/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 7 Metrics:
+  Loss_DV:         0.5907
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1467
+  Loss_adv_speech:     0.1339
+  Loss_Cycle Vocal:     3.5607
+  Loss_Cycle Speech:     3.5154
+  Loss_Identity Vocal:     5.4959
+  Loss_Identity Speech:     6.5825
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0060
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 8/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 8 Metrics:
+  Loss_DV:         0.5907
+  Loss_DS:         0.5925
+  Loss_adv_vocal:     0.1468
+  Loss_adv_speech:     0.1339
+  Loss_Cycle Vocal:     3.5594
+  Loss_Cycle Speech:     3.5204
+  Loss_Identity Vocal:     5.4865
+  Loss_Identity Speech:     6.5738
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0076
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 9/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 9 Metrics:
+  Loss_DV:         0.5908
+  Loss_DS:         0.5936
+  Loss_adv_vocal:     0.1466
+  Loss_adv_speech:     0.1338
+  Loss_Cycle Vocal:     3.5550
+  Loss_Cycle Speech:     3.5160
+  Loss_Identity Vocal:     5.5100
+  Loss_Identity Speech:     6.5752
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 10/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 10 Metrics:
+  Loss_DV:         0.5907
+  Loss_DS:         0.5933
+  Loss_adv_vocal:     0.1464
+  Loss_adv_speech:     0.1337
+  Loss_Cycle Vocal:     3.5430
+  Loss_Cycle Speech:     3.5128
+  Loss_Identity Vocal:     5.5152
+  Loss_Identity Speech:     6.5454
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0063
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 11/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 11 Metrics:
+  Loss_DV:         0.5922
+  Loss_DS:         0.5931
+  Loss_adv_vocal:     0.1464
+  Loss_adv_speech:     0.1338
+  Loss_Cycle Vocal:     3.4790
+  Loss_Cycle Speech:     3.4916
+  Loss_Identity Vocal:     5.5072
+  Loss_Identity Speech:     6.5566
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 12/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 12 Metrics:
+  Loss_DV:         0.5931
+  Loss_DS:         0.5940
+  Loss_adv_vocal:     0.1460
+  Loss_adv_speech:     0.1340
+  Loss_Cycle Vocal:     3.4078
+  Loss_Cycle Speech:     3.4462
+  Loss_Identity Vocal:     5.4696
+  Loss_Identity Speech:     6.5189
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0061
+  Grad Norm GS:    0.0058
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 13/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 13 Metrics:
+  Loss_DV:         0.5935
+  Loss_DS:         0.5931
+  Loss_adv_vocal:     0.1455
+  Loss_adv_speech:     0.1333
+  Loss_Cycle Vocal:     3.3805
+  Loss_Cycle Speech:     3.4386
+  Loss_Identity Vocal:     5.4704
+  Loss_Identity Speech:     6.5165
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 14/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 14 Metrics:
+  Loss_DV:         0.5935
+  Loss_DS:         0.5938
+  Loss_adv_vocal:     0.1457
+  Loss_adv_speech:     0.1335
+  Loss_Cycle Vocal:     3.3449
+  Loss_Cycle Speech:     3.4198
+  Loss_Identity Vocal:     5.4747
+  Loss_Identity Speech:     6.5189
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 15/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 15 Metrics:
+  Loss_DV:         0.5933
+  Loss_DS:         0.5939
+  Loss_adv_vocal:     0.1454
+  Loss_adv_speech:     0.1333
+  Loss_Cycle Vocal:     3.3590
+  Loss_Cycle Speech:     3.4246
+  Loss_Identity Vocal:     5.4773
+  Loss_Identity Speech:     6.5131
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0082
+  Grad Norm GS:    0.0084
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 16/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 16 Metrics:
+  Loss_DV:         0.5936
+  Loss_DS:         0.5944
+  Loss_adv_vocal:     0.1454
+  Loss_adv_speech:     0.1333
+  Loss_Cycle Vocal:     3.3093
+  Loss_Cycle Speech:     3.4077
+  Loss_Identity Vocal:     5.4897
+  Loss_Identity Speech:     6.5221
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0079
+  Grad Norm GS:    0.0077
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 17/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 17 Metrics:
+  Loss_DV:         0.5937
+  Loss_DS:         0.5941
+  Loss_adv_vocal:     0.1452
+  Loss_adv_speech:     0.1332
+  Loss_Cycle Vocal:     3.2562
+  Loss_Cycle Speech:     3.3748
+  Loss_Identity Vocal:     5.4608
+  Loss_Identity Speech:     6.5103
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 18/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 18 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5948
+  Loss_adv_vocal:     0.1449
+  Loss_adv_speech:     0.1330
+  Loss_Cycle Vocal:     3.2353
+  Loss_Cycle Speech:     3.3672
+  Loss_Identity Vocal:     5.4691
+  Loss_Identity Speech:     6.4954
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 19/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 19 Metrics:
+  Loss_DV:         0.5958
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1447
+  Loss_adv_speech:     0.1332
+  Loss_Cycle Vocal:     3.3300
+  Loss_Cycle Speech:     3.4397
+  Loss_Identity Vocal:     5.5233
+  Loss_Identity Speech:     6.4990
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0076
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 20/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 20 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5945
+  Loss_adv_vocal:     0.1452
+  Loss_adv_speech:     0.1334
+  Loss_Cycle Vocal:     3.5134
+  Loss_Cycle Speech:     3.5787
+  Loss_Identity Vocal:     5.5090
+  Loss_Identity Speech:     6.5134
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0081
+  Grad Norm GS:    0.0078
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 21/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 21 Metrics:
+  Loss_DV:         0.5940
+  Loss_DS:         0.5946
+  Loss_adv_vocal:     0.1454
+  Loss_adv_speech:     0.1331
+  Loss_Cycle Vocal:     3.2838
+  Loss_Cycle Speech:     3.3816
+  Loss_Identity Vocal:     5.4570
+  Loss_Identity Speech:     6.5029
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 22/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 22 Metrics:
+  Loss_DV:         0.5950
+  Loss_DS:         0.5949
+  Loss_adv_vocal:     0.1440
+  Loss_adv_speech:     0.1330
+  Loss_Cycle Vocal:     3.2456
+  Loss_Cycle Speech:     3.3779
+  Loss_Identity Vocal:     5.4818
+  Loss_Identity Speech:     6.5155
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 23/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 23 Metrics:
+  Loss_DV:         0.5963
+  Loss_DS:         0.5946
+  Loss_adv_vocal:     0.1439
+  Loss_adv_speech:     0.1330
+  Loss_Cycle Vocal:     3.1659
+  Loss_Cycle Speech:     3.3153
+  Loss_Identity Vocal:     5.4756
+  Loss_Identity Speech:     6.4865
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0060
+  Grad Norm GS:    0.0058
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 24/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 24 Metrics:
+  Loss_DV:         0.5970
+  Loss_DS:         0.5947
+  Loss_adv_vocal:     0.1434
+  Loss_adv_speech:     0.1327
+  Loss_Cycle Vocal:     3.1604
+  Loss_Cycle Speech:     3.2917
+  Loss_Identity Vocal:     5.4903
+  Loss_Identity Speech:     6.4555
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0063
+  Grad Norm GS:    0.0060
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 25/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 25 Metrics:
+  Loss_DV:         0.5978
+  Loss_DS:         0.5954
+  Loss_adv_vocal:     0.1433
+  Loss_adv_speech:     0.1327
+  Loss_Cycle Vocal:     3.1557
+  Loss_Cycle Speech:     3.2854
+  Loss_Identity Vocal:     5.4977
+  Loss_Identity Speech:     6.4431
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0063
+  Grad Norm GS:    0.0059
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 26/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 26 Metrics:
+  Loss_DV:         0.5974
+  Loss_DS:         0.5955
+  Loss_adv_vocal:     0.1427
+  Loss_adv_speech:     0.1326
+  Loss_Cycle Vocal:     3.1446
+  Loss_Cycle Speech:     3.2851
+  Loss_Identity Vocal:     5.4967
+  Loss_Identity Speech:     6.4224
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 27/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 27 Metrics:
+  Loss_DV:         0.5980
+  Loss_DS:         0.5950
+  Loss_adv_vocal:     0.1426
+  Loss_adv_speech:     0.1328
+  Loss_Cycle Vocal:     3.1097
+  Loss_Cycle Speech:     3.2763
+  Loss_Identity Vocal:     5.4756
+  Loss_Identity Speech:     6.3985
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 28/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 28 Metrics:
+  Loss_DV:         0.5986
+  Loss_DS:         0.5957
+  Loss_adv_vocal:     0.1421
+  Loss_adv_speech:     0.1327
+  Loss_Cycle Vocal:     3.1069
+  Loss_Cycle Speech:     3.2583
+  Loss_Identity Vocal:     5.4818
+  Loss_Identity Speech:     6.3868
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 29/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 29 Metrics:
+  Loss_DV:         0.5992
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1420
+  Loss_adv_speech:     0.1320
+  Loss_Cycle Vocal:     3.0833
+  Loss_Cycle Speech:     3.2363
+  Loss_Identity Vocal:     5.4864
+  Loss_Identity Speech:     6.3664
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 30/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 30 Metrics:
+  Loss_DV:         0.5996
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1416
+  Loss_adv_speech:     0.1325
+  Loss_Cycle Vocal:     2.9882
+  Loss_Cycle Speech:     3.1831
+  Loss_Identity Vocal:     5.4445
+  Loss_Identity Speech:     6.3315
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0059
+  Grad Norm GS:    0.0054
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 31/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 31 Metrics:
+  Loss_DV:         0.6007
+  Loss_DS:         0.5963
+  Loss_adv_vocal:     0.1414
+  Loss_adv_speech:     0.1325
+  Loss_Cycle Vocal:     3.0131
+  Loss_Cycle Speech:     3.2050
+  Loss_Identity Vocal:     5.4527
+  Loss_Identity Speech:     6.3394
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 32/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 32 Metrics:
+  Loss_DV:         0.6059
+  Loss_DS:         0.5965
+  Loss_adv_vocal:     0.1375
+  Loss_adv_speech:     0.1322
+  Loss_Cycle Vocal:     3.0405
+  Loss_Cycle Speech:     3.2060
+  Loss_Identity Vocal:     5.4457
+  Loss_Identity Speech:     6.3334
+  Grad Norm DV:    1.2807
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    3.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 33/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 33 Metrics:
+  Loss_DV:         0.7416
+  Loss_DS:         0.5975
+  Loss_adv_vocal:     0.0774
+  Loss_adv_speech:     0.1319
+  Loss_Cycle Vocal:     2.9493
+  Loss_Cycle Speech:     3.1449
+  Loss_Identity Vocal:     5.4272
+  Loss_Identity Speech:     6.3153
+  Grad Norm DV:    0.3231
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0064
+  num_DV_updates:    16.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 34/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 34 Metrics:
+  Loss_DV:         0.6256
+  Loss_DS:         0.5968
+  Loss_adv_vocal:     0.1406
+  Loss_adv_speech:     0.1318
+  Loss_Cycle Vocal:     2.9900
+  Loss_Cycle Speech:     3.1584
+  Loss_Identity Vocal:     5.4682
+  Loss_Identity Speech:     6.3016
+  Grad Norm DV:    0.2915
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    10.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 35/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 35 Metrics:
+  Loss_DV:         0.6700
+  Loss_DS:         0.5969
+  Loss_adv_vocal:     0.0996
+  Loss_adv_speech:     0.1320
+  Loss_Cycle Vocal:     2.9986
+  Loss_Cycle Speech:     3.1490
+  Loss_Identity Vocal:     5.4806
+  Loss_Identity Speech:     6.2847
+  Grad Norm DV:    0.2843
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    13.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 36/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 36 Metrics:
+  Loss_DV:         0.6348
+  Loss_DS:         0.5982
+  Loss_adv_vocal:     0.1102
+  Loss_adv_speech:     0.1317
+  Loss_Cycle Vocal:     2.9878
+  Loss_Cycle Speech:     3.1345
+  Loss_Identity Vocal:     5.4924
+  Loss_Identity Speech:     6.2924
+  Grad Norm DV:    0.2622
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    12.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 37/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 37 Metrics:
+  Loss_DV:         0.5984
+  Loss_DS:         0.5972
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1323
+  Loss_Cycle Vocal:     2.9725
+  Loss_Cycle Speech:     3.1018
+  Loss_Identity Vocal:     5.5121
+  Loss_Identity Speech:     6.2837
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0063
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 38/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 38 Metrics:
+  Loss_DV:         0.5986
+  Loss_DS:         0.5976
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1320
+  Loss_Cycle Vocal:     2.9642
+  Loss_Cycle Speech:     3.0804
+  Loss_Identity Vocal:     5.5256
+  Loss_Identity Speech:     6.2754
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 39/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 39 Metrics:
+  Loss_DV:         0.6014
+  Loss_DS:         0.5964
+  Loss_adv_vocal:     0.1279
+  Loss_adv_speech:     0.1322
+  Loss_Cycle Vocal:     2.8623
+  Loss_Cycle Speech:     3.0188
+  Loss_Identity Vocal:     5.4818
+  Loss_Identity Speech:     6.2524
+  Grad Norm DV:    1.7915
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0061
+  Grad Norm GS:    0.0057
+  num_DV_updates:    2.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 40/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 40 Metrics:
+  Loss_DV:         0.7385
+  Loss_DS:         0.5985
+  Loss_adv_vocal:     0.0742
+  Loss_adv_speech:     0.1315
+  Loss_Cycle Vocal:     2.8647
+  Loss_Cycle Speech:     3.0416
+  Loss_Identity Vocal:     5.4658
+  Loss_Identity Speech:     6.2546
+  Grad Norm DV:    0.3722
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    15.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 41/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 41 Metrics:
+  Loss_DV:         0.6249
+  Loss_DS:         0.5975
+  Loss_adv_vocal:     0.1332
+  Loss_adv_speech:     0.1316
+  Loss_Cycle Vocal:     2.8570
+  Loss_Cycle Speech:     3.0205
+  Loss_Identity Vocal:     5.4853
+  Loss_Identity Speech:     6.2389
+  Grad Norm DV:    0.2786
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0063
+  Grad Norm GS:    0.0060
+  num_DV_updates:    10.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 42/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 42 Metrics:
+  Loss_DV:         0.6570
+  Loss_DS:         0.5982
+  Loss_adv_vocal:     0.1044
+  Loss_adv_speech:     0.1316
+  Loss_Cycle Vocal:     2.9166
+  Loss_Cycle Speech:     3.0331
+  Loss_Identity Vocal:     5.5038
+  Loss_Identity Speech:     6.2510
+  Grad Norm DV:    0.2619
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0070
+  num_DV_updates:    13.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 43/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 43 Metrics:
+  Loss_DV:         0.6362
+  Loss_DS:         0.5982
+  Loss_adv_vocal:     0.1070
+  Loss_adv_speech:     0.1315
+  Loss_Cycle Vocal:     2.8805
+  Loss_Cycle Speech:     3.0251
+  Loss_Identity Vocal:     5.4924
+  Loss_Identity Speech:     6.2135
+  Grad Norm DV:    0.2314
+  Grad Norm DS:    3.2936
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0068
+  num_DV_updates:    13.0000
+  num_DS_updates:    1.0000
+
+=== Epoch 44/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 44 Metrics:
+  Loss_DV:         0.5859
+  Loss_DS:         0.6734
+  Loss_adv_vocal:     0.1353
+  Loss_adv_speech:     0.0967
+  Loss_Cycle Vocal:     2.8655
+  Loss_Cycle Speech:     2.9959
+  Loss_Identity Vocal:     5.4953
+  Loss_Identity Speech:     6.2253
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.4992
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    10.0000
+
+=== Epoch 45/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 45 Metrics:
+  Loss_DV:         0.5866
+  Loss_DS:         0.6792
+  Loss_adv_vocal:     0.1349
+  Loss_adv_speech:     0.0954
+  Loss_Cycle Vocal:     2.8604
+  Loss_Cycle Speech:     2.9753
+  Loss_Identity Vocal:     5.5201
+  Loss_Identity Speech:     6.2251
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.1844
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    16.0000
+
+=== Epoch 46/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 46 Metrics:
+  Loss_DV:         0.5863
+  Loss_DS:         0.5899
+  Loss_adv_vocal:     0.1346
+  Loss_adv_speech:     0.1384
+  Loss_Cycle Vocal:     2.8352
+  Loss_Cycle Speech:     2.9366
+  Loss_Identity Vocal:     5.5312
+  Loss_Identity Speech:     6.2352
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0061
+  Grad Norm GS:    0.0055
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 47/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 47 Metrics:
+  Loss_DV:         0.5871
+  Loss_DS:         0.5901
+  Loss_adv_vocal:     0.1347
+  Loss_adv_speech:     0.1384
+  Loss_Cycle Vocal:     2.8175
+  Loss_Cycle Speech:     2.9440
+  Loss_Identity Vocal:     5.5303
+  Loss_Identity Speech:     6.2225
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0063
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 48/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 48 Metrics:
+  Loss_DV:         0.5876
+  Loss_DS:         0.5905
+  Loss_adv_vocal:     0.1343
+  Loss_adv_speech:     0.1383
+  Loss_Cycle Vocal:     2.7690
+  Loss_Cycle Speech:     2.9249
+  Loss_Identity Vocal:     5.5112
+  Loss_Identity Speech:     6.2156
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 49/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 49 Metrics:
+  Loss_DV:         0.5871
+  Loss_DS:         0.5911
+  Loss_adv_vocal:     0.1340
+  Loss_adv_speech:     0.1378
+  Loss_Cycle Vocal:     2.7227
+  Loss_Cycle Speech:     2.9009
+  Loss_Identity Vocal:     5.4917
+  Loss_Identity Speech:     6.2066
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 50/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 50 Metrics:
+  Loss_DV:         0.5876
+  Loss_DS:         0.5917
+  Loss_adv_vocal:     0.1342
+  Loss_adv_speech:     0.1377
+  Loss_Cycle Vocal:     2.7255
+  Loss_Cycle Speech:     2.8968
+  Loss_Identity Vocal:     5.4902
+  Loss_Identity Speech:     6.2023
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0084
+  Grad Norm GS:    0.0084
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 1/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 1 Metrics:
+  Loss_DV:         0.5875
+  Loss_DS:         0.5910
+  Loss_adv_vocal:     0.1340
+  Loss_adv_speech:     0.1379
+  Loss_Cycle Vocal:     2.6996
+  Loss_Cycle Speech:     2.8748
+  Loss_Identity Vocal:     5.4815
+  Loss_Identity Speech:     6.1884
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0080
+  Grad Norm GS:    0.0080
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 2/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 2 Metrics:
+  Loss_DV:         0.5884
+  Loss_DS:         0.5914
+  Loss_adv_vocal:     0.1338
+  Loss_adv_speech:     0.1381
+  Loss_Cycle Vocal:     2.6919
+  Loss_Cycle Speech:     2.8801
+  Loss_Identity Vocal:     5.4938
+  Loss_Identity Speech:     6.2027
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 3/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 3 Metrics:
+  Loss_DV:         0.5884
+  Loss_DS:         0.5914
+  Loss_adv_vocal:     0.1346
+  Loss_adv_speech:     0.1381
+  Loss_Cycle Vocal:     2.7035
+  Loss_Cycle Speech:     2.8720
+  Loss_Identity Vocal:     5.4952
+  Loss_Identity Speech:     6.2012
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 4/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 4 Metrics:
+  Loss_DV:         0.5872
+  Loss_DS:         0.5912
+  Loss_adv_vocal:     0.1340
+  Loss_adv_speech:     0.1373
+  Loss_Cycle Vocal:     2.6981
+  Loss_Cycle Speech:     2.8633
+  Loss_Identity Vocal:     5.4977
+  Loss_Identity Speech:     6.1972
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 5/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 5 Metrics:
+  Loss_DV:         0.5886
+  Loss_DS:         0.5916
+  Loss_adv_vocal:     0.1334
+  Loss_adv_speech:     0.1378
+  Loss_Cycle Vocal:     2.6376
+  Loss_Cycle Speech:     2.8294
+  Loss_Identity Vocal:     5.4579
+  Loss_Identity Speech:     6.1720
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 6/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 6 Metrics:
+  Loss_DV:         0.5894
+  Loss_DS:         0.5916
+  Loss_adv_vocal:     0.1335
+  Loss_adv_speech:     0.1376
+  Loss_Cycle Vocal:     2.6207
+  Loss_Cycle Speech:     2.7931
+  Loss_Identity Vocal:     5.4600
+  Loss_Identity Speech:     6.1874
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 7/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 7 Metrics:
+  Loss_DV:         0.5897
+  Loss_DS:         0.5927
+  Loss_adv_vocal:     0.1335
+  Loss_adv_speech:     0.1377
+  Loss_Cycle Vocal:     2.6732
+  Loss_Cycle Speech:     2.8201
+  Loss_Identity Vocal:     5.5146
+  Loss_Identity Speech:     6.1814
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 8/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 8 Metrics:
+  Loss_DV:         0.5890
+  Loss_DS:         0.5923
+  Loss_adv_vocal:     0.1334
+  Loss_adv_speech:     0.1376
+  Loss_Cycle Vocal:     2.6151
+  Loss_Cycle Speech:     2.8149
+  Loss_Identity Vocal:     5.4951
+  Loss_Identity Speech:     6.1818
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 9/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 9 Metrics:
+  Loss_DV:         0.5896
+  Loss_DS:         0.5920
+  Loss_adv_vocal:     0.1335
+  Loss_adv_speech:     0.1374
+  Loss_Cycle Vocal:     2.6206
+  Loss_Cycle Speech:     2.8066
+  Loss_Identity Vocal:     5.5019
+  Loss_Identity Speech:     6.1624
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 10/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 10 Metrics:
+  Loss_DV:         0.5901
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1325
+  Loss_adv_speech:     0.1376
+  Loss_Cycle Vocal:     2.6363
+  Loss_Cycle Speech:     2.7966
+  Loss_Identity Vocal:     5.5152
+  Loss_Identity Speech:     6.1398
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 11/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 11 Metrics:
+  Loss_DV:         0.5906
+  Loss_DS:         0.5922
+  Loss_adv_vocal:     0.1327
+  Loss_adv_speech:     0.1374
+  Loss_Cycle Vocal:     2.5957
+  Loss_Cycle Speech:     2.7899
+  Loss_Identity Vocal:     5.5085
+  Loss_Identity Speech:     6.1403
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 12/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 12 Metrics:
+  Loss_DV:         0.5902
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1325
+  Loss_adv_speech:     0.1370
+  Loss_Cycle Vocal:     2.6237
+  Loss_Cycle Speech:     2.7817
+  Loss_Identity Vocal:     5.5166
+  Loss_Identity Speech:     6.1232
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 13/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 13 Metrics:
+  Loss_DV:         0.5915
+  Loss_DS:         0.5927
+  Loss_adv_vocal:     0.1321
+  Loss_adv_speech:     0.1372
+  Loss_Cycle Vocal:     2.5717
+  Loss_Cycle Speech:     2.7425
+  Loss_Identity Vocal:     5.5025
+  Loss_Identity Speech:     6.1057
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 14/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 14 Metrics:
+  Loss_DV:         0.5914
+  Loss_DS:         0.5924
+  Loss_adv_vocal:     0.1321
+  Loss_adv_speech:     0.1372
+  Loss_Cycle Vocal:     2.5292
+  Loss_Cycle Speech:     2.7146
+  Loss_Identity Vocal:     5.4778
+  Loss_Identity Speech:     6.1015
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 15/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 15 Metrics:
+  Loss_DV:         0.5912
+  Loss_DS:         0.5922
+  Loss_adv_vocal:     0.1324
+  Loss_adv_speech:     0.1372
+  Loss_Cycle Vocal:     2.5430
+  Loss_Cycle Speech:     2.7157
+  Loss_Identity Vocal:     5.4796
+  Loss_Identity Speech:     6.0799
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 16/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 16 Metrics:
+  Loss_DV:         0.5911
+  Loss_DS:         0.5931
+  Loss_adv_vocal:     0.1320
+  Loss_adv_speech:     0.1376
+  Loss_Cycle Vocal:     2.5788
+  Loss_Cycle Speech:     2.7163
+  Loss_Identity Vocal:     5.5164
+  Loss_Identity Speech:     6.0820
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 17/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 17 Metrics:
+  Loss_DV:         0.5925
+  Loss_DS:         0.5937
+  Loss_adv_vocal:     0.1320
+  Loss_adv_speech:     0.1373
+  Loss_Cycle Vocal:     2.5693
+  Loss_Cycle Speech:     2.7224
+  Loss_Identity Vocal:     5.5206
+  Loss_Identity Speech:     6.0579
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 18/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 18 Metrics:
+  Loss_DV:         0.5929
+  Loss_DS:         0.5927
+  Loss_adv_vocal:     0.1313
+  Loss_adv_speech:     0.1372
+  Loss_Cycle Vocal:     2.5122
+  Loss_Cycle Speech:     2.6774
+  Loss_Identity Vocal:     5.4982
+  Loss_Identity Speech:     6.0156
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 19/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 19 Metrics:
+  Loss_DV:         0.5932
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1318
+  Loss_adv_speech:     0.1371
+  Loss_Cycle Vocal:     2.5421
+  Loss_Cycle Speech:     2.6981
+  Loss_Identity Vocal:     5.5042
+  Loss_Identity Speech:     5.9936
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 20/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 20 Metrics:
+  Loss_DV:         0.5925
+  Loss_DS:         0.5942
+  Loss_adv_vocal:     0.1312
+  Loss_adv_speech:     0.1370
+  Loss_Cycle Vocal:     2.4919
+  Loss_Cycle Speech:     2.6630
+  Loss_Identity Vocal:     5.4739
+  Loss_Identity Speech:     5.9736
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 21/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 21 Metrics:
+  Loss_DV:         0.5932
+  Loss_DS:         0.5923
+  Loss_adv_vocal:     0.1312
+  Loss_adv_speech:     0.1370
+  Loss_Cycle Vocal:     2.4290
+  Loss_Cycle Speech:     2.6152
+  Loss_Identity Vocal:     5.4576
+  Loss_Identity Speech:     5.9333
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 22/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 22 Metrics:
+  Loss_DV:         0.5921
+  Loss_DS:         0.5943
+  Loss_adv_vocal:     0.1313
+  Loss_adv_speech:     0.1367
+  Loss_Cycle Vocal:     2.4668
+  Loss_Cycle Speech:     2.6471
+  Loss_Identity Vocal:     5.4778
+  Loss_Identity Speech:     5.9081
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 23/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 23 Metrics:
+  Loss_DV:         0.5933
+  Loss_DS:         0.5930
+  Loss_adv_vocal:     0.1316
+  Loss_adv_speech:     0.1369
+  Loss_Cycle Vocal:     2.4811
+  Loss_Cycle Speech:     2.6719
+  Loss_Identity Vocal:     5.4908
+  Loss_Identity Speech:     5.8910
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 24/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 24 Metrics:
+  Loss_DV:         0.5932
+  Loss_DS:         0.5938
+  Loss_adv_vocal:     0.1310
+  Loss_adv_speech:     0.1370
+  Loss_Cycle Vocal:     2.4860
+  Loss_Cycle Speech:     2.6794
+  Loss_Identity Vocal:     5.4711
+  Loss_Identity Speech:     5.8110
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 25/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 25 Metrics:
+  Loss_DV:         0.5932
+  Loss_DS:         0.5928
+  Loss_adv_vocal:     0.1307
+  Loss_adv_speech:     0.1369
+  Loss_Cycle Vocal:     2.4783
+  Loss_Cycle Speech:     2.6278
+  Loss_Identity Vocal:     5.4981
+  Loss_Identity Speech:     5.7577
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 26/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 26 Metrics:
+  Loss_DV:         0.5947
+  Loss_DS:         0.5932
+  Loss_adv_vocal:     0.1306
+  Loss_adv_speech:     0.1367
+  Loss_Cycle Vocal:     2.4621
+  Loss_Cycle Speech:     2.6203
+  Loss_Identity Vocal:     5.4934
+  Loss_Identity Speech:     5.6950
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 27/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 27 Metrics:
+  Loss_DV:         0.5941
+  Loss_DS:         0.5937
+  Loss_adv_vocal:     0.1308
+  Loss_adv_speech:     0.1364
+  Loss_Cycle Vocal:     2.4343
+  Loss_Cycle Speech:     2.6141
+  Loss_Identity Vocal:     5.4806
+  Loss_Identity Speech:     5.6305
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 28/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 28 Metrics:
+  Loss_DV:         0.5954
+  Loss_DS:         0.5941
+  Loss_adv_vocal:     0.1305
+  Loss_adv_speech:     0.1367
+  Loss_Cycle Vocal:     2.4216
+  Loss_Cycle Speech:     2.6205
+  Loss_Identity Vocal:     5.4652
+  Loss_Identity Speech:     5.5952
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 29/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 29 Metrics:
+  Loss_DV:         0.5948
+  Loss_DS:         0.5936
+  Loss_adv_vocal:     0.1304
+  Loss_adv_speech:     0.1369
+  Loss_Cycle Vocal:     2.4099
+  Loss_Cycle Speech:     2.5864
+  Loss_Identity Vocal:     5.4814
+  Loss_Identity Speech:     5.5556
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 30/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 30 Metrics:
+  Loss_DV:         0.5945
+  Loss_DS:         0.5947
+  Loss_adv_vocal:     0.1305
+  Loss_adv_speech:     0.1365
+  Loss_Cycle Vocal:     2.4221
+  Loss_Cycle Speech:     2.5767
+  Loss_Identity Vocal:     5.4928
+  Loss_Identity Speech:     5.5214
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 31/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 31 Metrics:
+  Loss_DV:         0.5955
+  Loss_DS:         0.5948
+  Loss_adv_vocal:     0.1300
+  Loss_adv_speech:     0.1366
+  Loss_Cycle Vocal:     2.4214
+  Loss_Cycle Speech:     2.5706
+  Loss_Identity Vocal:     5.4871
+  Loss_Identity Speech:     5.4967
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 32/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 32 Metrics:
+  Loss_DV:         0.5954
+  Loss_DS:         0.5940
+  Loss_adv_vocal:     0.1304
+  Loss_adv_speech:     0.1368
+  Loss_Cycle Vocal:     2.4167
+  Loss_Cycle Speech:     2.5661
+  Loss_Identity Vocal:     5.4756
+  Loss_Identity Speech:     5.4636
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 33/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 33 Metrics:
+  Loss_DV:         0.5956
+  Loss_DS:         0.5933
+  Loss_adv_vocal:     0.1303
+  Loss_adv_speech:     0.1367
+  Loss_Cycle Vocal:     2.4041
+  Loss_Cycle Speech:     2.5538
+  Loss_Identity Vocal:     5.4800
+  Loss_Identity Speech:     5.4408
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 34/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 34 Metrics:
+  Loss_DV:         0.5952
+  Loss_DS:         0.5942
+  Loss_adv_vocal:     0.1302
+  Loss_adv_speech:     0.1366
+  Loss_Cycle Vocal:     2.3795
+  Loss_Cycle Speech:     2.5812
+  Loss_Identity Vocal:     5.4468
+  Loss_Identity Speech:     5.4234
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 35/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 35 Metrics:
+  Loss_DV:         0.5956
+  Loss_DS:         0.5937
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1363
+  Loss_Cycle Vocal:     2.3588
+  Loss_Cycle Speech:     2.5518
+  Loss_Identity Vocal:     5.4342
+  Loss_Identity Speech:     5.4097
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 36/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 36 Metrics:
+  Loss_DV:         0.5951
+  Loss_DS:         0.5943
+  Loss_adv_vocal:     0.1302
+  Loss_adv_speech:     0.1364
+  Loss_Cycle Vocal:     2.2855
+  Loss_Cycle Speech:     2.4740
+  Loss_Identity Vocal:     5.4138
+  Loss_Identity Speech:     5.3858
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0062
+  Grad Norm GS:    0.0060
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 37/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 37 Metrics:
+  Loss_DV:         0.5956
+  Loss_DS:         0.5942
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1365
+  Loss_Cycle Vocal:     2.2791
+  Loss_Cycle Speech:     2.4854
+  Loss_Identity Vocal:     5.4235
+  Loss_Identity Speech:     5.3808
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 38/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 38 Metrics:
+  Loss_DV:         0.5958
+  Loss_DS:         0.5946
+  Loss_adv_vocal:     0.1296
+  Loss_adv_speech:     0.1367
+  Loss_Cycle Vocal:     2.2867
+  Loss_Cycle Speech:     2.4776
+  Loss_Identity Vocal:     5.4268
+  Loss_Identity Speech:     5.3520
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0079
+  Grad Norm GS:    0.0078
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 39/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 39 Metrics:
+  Loss_DV:         0.5963
+  Loss_DS:         0.5935
+  Loss_adv_vocal:     0.1298
+  Loss_adv_speech:     0.1364
+  Loss_Cycle Vocal:     2.2276
+  Loss_Cycle Speech:     2.4455
+  Loss_Identity Vocal:     5.4087
+  Loss_Identity Speech:     5.3383
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0061
+  Grad Norm GS:    0.0057
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 40/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 40 Metrics:
+  Loss_DV:         0.5963
+  Loss_DS:         0.5949
+  Loss_adv_vocal:     0.1299
+  Loss_adv_speech:     0.1366
+  Loss_Cycle Vocal:     2.2365
+  Loss_Cycle Speech:     2.4431
+  Loss_Identity Vocal:     5.3969
+  Loss_Identity Speech:     5.3384
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0063
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 41/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 41 Metrics:
+  Loss_DV:         0.5956
+  Loss_DS:         0.5940
+  Loss_adv_vocal:     0.1299
+  Loss_adv_speech:     0.1366
+  Loss_Cycle Vocal:     2.2535
+  Loss_Cycle Speech:     2.4455
+  Loss_Identity Vocal:     5.4007
+  Loss_Identity Speech:     5.3173
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 42/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 42 Metrics:
+  Loss_DV:         0.5959
+  Loss_DS:         0.5937
+  Loss_adv_vocal:     0.1301
+  Loss_adv_speech:     0.1363
+  Loss_Cycle Vocal:     2.2799
+  Loss_Cycle Speech:     2.4572
+  Loss_Identity Vocal:     5.4068
+  Loss_Identity Speech:     5.3163
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 43/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 43 Metrics:
+  Loss_DV:         0.5966
+  Loss_DS:         0.5943
+  Loss_adv_vocal:     0.1303
+  Loss_adv_speech:     0.1364
+  Loss_Cycle Vocal:     2.2716
+  Loss_Cycle Speech:     2.4478
+  Loss_Identity Vocal:     5.3957
+  Loss_Identity Speech:     5.2968
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0078
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 44/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 44 Metrics:
+  Loss_DV:         0.5957
+  Loss_DS:         0.5949
+  Loss_adv_vocal:     0.1298
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.2651
+  Loss_Cycle Speech:     2.4412
+  Loss_Identity Vocal:     5.3920
+  Loss_Identity Speech:     5.2735
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0084
+  Grad Norm GS:    0.0083
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 45/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 45 Metrics:
+  Loss_DV:         0.5956
+  Loss_DS:         0.5952
+  Loss_adv_vocal:     0.1301
+  Loss_adv_speech:     0.1362
+  Loss_Cycle Vocal:     2.3613
+  Loss_Cycle Speech:     2.5457
+  Loss_Identity Vocal:     5.4270
+  Loss_Identity Speech:     5.2769
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0083
+  Grad Norm GS:    0.0081
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 46/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 46 Metrics:
+  Loss_DV:         0.5957
+  Loss_DS:         0.5944
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1368
+  Loss_Cycle Vocal:     2.4365
+  Loss_Cycle Speech:     2.6542
+  Loss_Identity Vocal:     5.4195
+  Loss_Identity Speech:     5.3667
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0077
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 47/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 47 Metrics:
+  Loss_DV:         0.5952
+  Loss_DS:         0.5942
+  Loss_adv_vocal:     0.1303
+  Loss_adv_speech:     0.1364
+  Loss_Cycle Vocal:     2.2911
+  Loss_Cycle Speech:     2.4524
+  Loss_Identity Vocal:     5.3798
+  Loss_Identity Speech:     5.3282
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0061
+  Grad Norm GS:    0.0060
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 48/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 48 Metrics:
+  Loss_DV:         0.5959
+  Loss_DS:         0.5940
+  Loss_adv_vocal:     0.1300
+  Loss_adv_speech:     0.1365
+  Loss_Cycle Vocal:     2.2265
+  Loss_Cycle Speech:     2.3946
+  Loss_Identity Vocal:     5.3546
+  Loss_Identity Speech:     5.2741
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0063
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 49/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 49 Metrics:
+  Loss_DV:         0.5960
+  Loss_DS:         0.5945
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1365
+  Loss_Cycle Vocal:     2.2419
+  Loss_Cycle Speech:     2.4137
+  Loss_Identity Vocal:     5.3624
+  Loss_Identity Speech:     5.2434
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0065
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 50/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 50 Metrics:
+  Loss_DV:         0.5960
+  Loss_DS:         0.5948
+  Loss_adv_vocal:     0.1299
+  Loss_adv_speech:     0.1363
+  Loss_Cycle Vocal:     2.2117
+  Loss_Cycle Speech:     2.3880
+  Loss_Identity Vocal:     5.3483
+  Loss_Identity Speech:     5.2465
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 1/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 1 Metrics:
+  Loss_DV:         0.5963
+  Loss_DS:         0.5948
+  Loss_adv_vocal:     0.1293
+  Loss_adv_speech:     0.1363
+  Loss_Cycle Vocal:     2.2697
+  Loss_Cycle Speech:     2.4291
+  Loss_Identity Vocal:     5.3594
+  Loss_Identity Speech:     5.2242
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0077
+  Grad Norm GS:    0.0076
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 2/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 2 Metrics:
+  Loss_DV:         0.5961
+  Loss_DS:         0.5941
+  Loss_adv_vocal:     0.1299
+  Loss_adv_speech:     0.1362
+  Loss_Cycle Vocal:     2.1922
+  Loss_Cycle Speech:     2.3737
+  Loss_Identity Vocal:     5.3150
+  Loss_Identity Speech:     5.1991
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 3/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 3 Metrics:
+  Loss_DV:         0.5966
+  Loss_DS:         0.5947
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1363
+  Loss_Cycle Vocal:     2.2080
+  Loss_Cycle Speech:     2.3626
+  Loss_Identity Vocal:     5.3102
+  Loss_Identity Speech:     5.1883
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0084
+  Grad Norm GS:    0.0084
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 4/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 4 Metrics:
+  Loss_DV:         0.5973
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1292
+  Loss_adv_speech:     0.1364
+  Loss_Cycle Vocal:     2.1684
+  Loss_Cycle Speech:     2.3445
+  Loss_Identity Vocal:     5.2827
+  Loss_Identity Speech:     5.1635
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 5/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 5 Metrics:
+  Loss_DV:         0.5964
+  Loss_DS:         0.5955
+  Loss_adv_vocal:     0.1294
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.1509
+  Loss_Cycle Speech:     2.3336
+  Loss_Identity Vocal:     5.2734
+  Loss_Identity Speech:     5.1539
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 6/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 6 Metrics:
+  Loss_DV:         0.5968
+  Loss_DS:         0.5949
+  Loss_adv_vocal:     0.1293
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.1730
+  Loss_Cycle Speech:     2.3424
+  Loss_Identity Vocal:     5.2626
+  Loss_Identity Speech:     5.1381
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0079
+  Grad Norm GS:    0.0079
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 7/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 7 Metrics:
+  Loss_DV:         0.5975
+  Loss_DS:         0.5951
+  Loss_adv_vocal:     0.1290
+  Loss_adv_speech:     0.1362
+  Loss_Cycle Vocal:     2.1957
+  Loss_Cycle Speech:     2.3431
+  Loss_Identity Vocal:     5.2591
+  Loss_Identity Speech:     5.1295
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 8/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 8 Metrics:
+  Loss_DV:         0.5970
+  Loss_DS:         0.5945
+  Loss_adv_vocal:     0.1290
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.2232
+  Loss_Cycle Speech:     2.3734
+  Loss_Identity Vocal:     5.2408
+  Loss_Identity Speech:     5.1182
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 9/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 9 Metrics:
+  Loss_DV:         0.5975
+  Loss_DS:         0.5955
+  Loss_adv_vocal:     0.1285
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.1660
+  Loss_Cycle Speech:     2.3194
+  Loss_Identity Vocal:     5.1923
+  Loss_Identity Speech:     5.0982
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 10/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 10 Metrics:
+  Loss_DV:         0.5984
+  Loss_DS:         0.5948
+  Loss_adv_vocal:     0.1287
+  Loss_adv_speech:     0.1359
+  Loss_Cycle Vocal:     2.1674
+  Loss_Cycle Speech:     2.3231
+  Loss_Identity Vocal:     5.2118
+  Loss_Identity Speech:     5.0826
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 11/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 11 Metrics:
+  Loss_DV:         0.5980
+  Loss_DS:         0.5955
+  Loss_adv_vocal:     0.1287
+  Loss_adv_speech:     0.1365
+  Loss_Cycle Vocal:     2.1293
+  Loss_Cycle Speech:     2.3007
+  Loss_Identity Vocal:     5.1505
+  Loss_Identity Speech:     5.0779
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 12/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 12 Metrics:
+  Loss_DV:         0.5981
+  Loss_DS:         0.5952
+  Loss_adv_vocal:     0.1288
+  Loss_adv_speech:     0.1356
+  Loss_Cycle Vocal:     2.1456
+  Loss_Cycle Speech:     2.3135
+  Loss_Identity Vocal:     5.1215
+  Loss_Identity Speech:     5.0596
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 13/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 13 Metrics:
+  Loss_DV:         0.5977
+  Loss_DS:         0.5956
+  Loss_adv_vocal:     0.1286
+  Loss_adv_speech:     0.1359
+  Loss_Cycle Vocal:     2.1428
+  Loss_Cycle Speech:     2.3039
+  Loss_Identity Vocal:     5.0993
+  Loss_Identity Speech:     5.0484
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 14/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 14 Metrics:
+  Loss_DV:         0.5991
+  Loss_DS:         0.5960
+  Loss_adv_vocal:     0.1288
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.1331
+  Loss_Cycle Speech:     2.2893
+  Loss_Identity Vocal:     5.0711
+  Loss_Identity Speech:     5.0381
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 15/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 15 Metrics:
+  Loss_DV:         0.5983
+  Loss_DS:         0.5956
+  Loss_adv_vocal:     0.1288
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.1798
+  Loss_Cycle Speech:     2.3189
+  Loss_Identity Vocal:     5.0669
+  Loss_Identity Speech:     5.0340
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 16/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 16 Metrics:
+  Loss_DV:         0.5984
+  Loss_DS:         0.5948
+  Loss_adv_vocal:     0.1283
+  Loss_adv_speech:     0.1360
+  Loss_Cycle Vocal:     2.1748
+  Loss_Cycle Speech:     2.3318
+  Loss_Identity Vocal:     5.0376
+  Loss_Identity Speech:     5.0222
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 17/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 17 Metrics:
+  Loss_DV:         0.5974
+  Loss_DS:         0.5946
+  Loss_adv_vocal:     0.1290
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.1812
+  Loss_Cycle Speech:     2.3457
+  Loss_Identity Vocal:     5.0140
+  Loss_Identity Speech:     5.0166
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 18/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 18 Metrics:
+  Loss_DV:         0.5977
+  Loss_DS:         0.5951
+  Loss_adv_vocal:     0.1289
+  Loss_adv_speech:     0.1357
+  Loss_Cycle Vocal:     2.1648
+  Loss_Cycle Speech:     2.3101
+  Loss_Identity Vocal:     4.9902
+  Loss_Identity Speech:     4.9948
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 19/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 19 Metrics:
+  Loss_DV:         0.5983
+  Loss_DS:         0.5960
+  Loss_adv_vocal:     0.1287
+  Loss_adv_speech:     0.1357
+  Loss_Cycle Vocal:     2.1560
+  Loss_Cycle Speech:     2.3212
+  Loss_Identity Vocal:     4.9597
+  Loss_Identity Speech:     4.9680
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 20/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 20 Metrics:
+  Loss_DV:         0.5982
+  Loss_DS:         0.5962
+  Loss_adv_vocal:     0.1285
+  Loss_adv_speech:     0.1359
+  Loss_Cycle Vocal:     2.1580
+  Loss_Cycle Speech:     2.3061
+  Loss_Identity Vocal:     4.9203
+  Loss_Identity Speech:     4.9726
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 21/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 21 Metrics:
+  Loss_DV:         0.5987
+  Loss_DS:         0.5956
+  Loss_adv_vocal:     0.1281
+  Loss_adv_speech:     0.1360
+  Loss_Cycle Vocal:     2.1654
+  Loss_Cycle Speech:     2.3054
+  Loss_Identity Vocal:     4.8860
+  Loss_Identity Speech:     4.9695
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 22/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 22 Metrics:
+  Loss_DV:         0.6002
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1280
+  Loss_adv_speech:     0.1358
+  Loss_Cycle Vocal:     2.1152
+  Loss_Cycle Speech:     2.2550
+  Loss_Identity Vocal:     4.8346
+  Loss_Identity Speech:     4.9371
+  Grad Norm DV:    3.4884
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0068
+  num_DV_updates:    1.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 23/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 23 Metrics:
+  Loss_DV:         0.7608
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.0691
+  Loss_adv_speech:     0.1358
+  Loss_Cycle Vocal:     2.1129
+  Loss_Cycle Speech:     2.2467
+  Loss_Identity Vocal:     4.7875
+  Loss_Identity Speech:     4.8959
+  Grad Norm DV:    0.5436
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    13.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 24/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 24 Metrics:
+  Loss_DV:         0.6385
+  Loss_DS:         0.5960
+  Loss_adv_vocal:     0.1182
+  Loss_adv_speech:     0.1356
+  Loss_Cycle Vocal:     2.2237
+  Loss_Cycle Speech:     2.3507
+  Loss_Identity Vocal:     4.7798
+  Loss_Identity Speech:     4.8927
+  Grad Norm DV:    0.1584
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0083
+  Grad Norm GS:    0.0081
+  num_DV_updates:    14.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 25/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 25 Metrics:
+  Loss_DV:         0.6094
+  Loss_DS:         0.5969
+  Loss_adv_vocal:     0.1434
+  Loss_adv_speech:     0.1356
+  Loss_Cycle Vocal:     2.2299
+  Loss_Cycle Speech:     2.3560
+  Loss_Identity Vocal:     4.7582
+  Loss_Identity Speech:     4.9168
+  Grad Norm DV:    0.6798
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0080
+  Grad Norm GS:    0.0079
+  num_DV_updates:    5.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 26/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 26 Metrics:
+  Loss_DV:         0.7052
+  Loss_DS:         0.5946
+  Loss_adv_vocal:     0.0801
+  Loss_adv_speech:     0.1359
+  Loss_Cycle Vocal:     2.1311
+  Loss_Cycle Speech:     2.2727
+  Loss_Identity Vocal:     4.6893
+  Loss_Identity Speech:     4.8746
+  Grad Norm DV:    0.3054
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0073
+  num_DV_updates:    15.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 27/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 27 Metrics:
+  Loss_DV:         0.6311
+  Loss_DS:         0.5957
+  Loss_adv_vocal:     0.1129
+  Loss_adv_speech:     0.1361
+  Loss_Cycle Vocal:     2.0647
+  Loss_Cycle Speech:     2.2290
+  Loss_Identity Vocal:     4.6129
+  Loss_Identity Speech:     4.8517
+  Grad Norm DV:    0.1984
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0068
+  num_DV_updates:    13.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 28/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 28 Metrics:
+  Loss_DV:         0.5974
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1285
+  Loss_adv_speech:     0.1358
+  Loss_Cycle Vocal:     2.0320
+  Loss_Cycle Speech:     2.1910
+  Loss_Identity Vocal:     4.5579
+  Loss_Identity Speech:     4.8260
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 29/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 29 Metrics:
+  Loss_DV:         0.5978
+  Loss_DS:         0.5956
+  Loss_adv_vocal:     0.1285
+  Loss_adv_speech:     0.1359
+  Loss_Cycle Vocal:     2.0254
+  Loss_Cycle Speech:     2.2006
+  Loss_Identity Vocal:     4.5043
+  Loss_Identity Speech:     4.8129
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 30/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 30 Metrics:
+  Loss_DV:         0.5984
+  Loss_DS:         0.5967
+  Loss_adv_vocal:     0.1287
+  Loss_adv_speech:     0.1358
+  Loss_Cycle Vocal:     2.0663
+  Loss_Cycle Speech:     2.2136
+  Loss_Identity Vocal:     4.4809
+  Loss_Identity Speech:     4.8084
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 31/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 31 Metrics:
+  Loss_DV:         0.5980
+  Loss_DS:         0.5972
+  Loss_adv_vocal:     0.1282
+  Loss_adv_speech:     0.1355
+  Loss_Cycle Vocal:     2.0704
+  Loss_Cycle Speech:     2.2194
+  Loss_Identity Vocal:     4.4532
+  Loss_Identity Speech:     4.8053
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 32/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 32 Metrics:
+  Loss_DV:         0.5981
+  Loss_DS:         0.5959
+  Loss_adv_vocal:     0.1285
+  Loss_adv_speech:     0.1355
+  Loss_Cycle Vocal:     2.0718
+  Loss_Cycle Speech:     2.2277
+  Loss_Identity Vocal:     4.4531
+  Loss_Identity Speech:     4.7827
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 33/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 33 Metrics:
+  Loss_DV:         0.5990
+  Loss_DS:         0.5966
+  Loss_adv_vocal:     0.1282
+  Loss_adv_speech:     0.1354
+  Loss_Cycle Vocal:     2.0823
+  Loss_Cycle Speech:     2.2306
+  Loss_Identity Vocal:     4.3908
+  Loss_Identity Speech:     4.7964
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 34/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 34 Metrics:
+  Loss_DV:         0.5982
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1283
+  Loss_adv_speech:     0.1357
+  Loss_Cycle Vocal:     2.0881
+  Loss_Cycle Speech:     2.2159
+  Loss_Identity Vocal:     4.3479
+  Loss_Identity Speech:     4.7781
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 35/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 35 Metrics:
+  Loss_DV:         0.5985
+  Loss_DS:         0.5961
+  Loss_adv_vocal:     0.1280
+  Loss_adv_speech:     0.1358
+  Loss_Cycle Vocal:     2.0475
+  Loss_Cycle Speech:     2.1786
+  Loss_Identity Vocal:     4.2854
+  Loss_Identity Speech:     4.7347
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 36/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 36 Metrics:
+  Loss_DV:         0.5985
+  Loss_DS:         0.5952
+  Loss_adv_vocal:     0.1283
+  Loss_adv_speech:     0.1354
+  Loss_Cycle Vocal:     2.0904
+  Loss_Cycle Speech:     2.2046
+  Loss_Identity Vocal:     4.2780
+  Loss_Identity Speech:     4.7435
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 37/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 37 Metrics:
+  Loss_DV:         0.5991
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1277
+  Loss_adv_speech:     0.1354
+  Loss_Cycle Vocal:     2.0656
+  Loss_Cycle Speech:     2.1769
+  Loss_Identity Vocal:     4.2174
+  Loss_Identity Speech:     4.7183
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 38/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 38 Metrics:
+  Loss_DV:         0.5986
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1279
+  Loss_adv_speech:     0.1355
+  Loss_Cycle Vocal:     2.0830
+  Loss_Cycle Speech:     2.1916
+  Loss_Identity Vocal:     4.1925
+  Loss_Identity Speech:     4.6925
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 39/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 39 Metrics:
+  Loss_DV:         0.5985
+  Loss_DS:         0.5961
+  Loss_adv_vocal:     0.1278
+  Loss_adv_speech:     0.1358
+  Loss_Cycle Vocal:     2.0749
+  Loss_Cycle Speech:     2.2069
+  Loss_Identity Vocal:     4.1636
+  Loss_Identity Speech:     4.6830
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 40/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 40 Metrics:
+  Loss_DV:         0.5991
+  Loss_DS:         0.5966
+  Loss_adv_vocal:     0.1280
+  Loss_adv_speech:     0.1356
+  Loss_Cycle Vocal:     2.0599
+  Loss_Cycle Speech:     2.1840
+  Loss_Identity Vocal:     4.1531
+  Loss_Identity Speech:     4.7108
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 41/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 41 Metrics:
+  Loss_DV:         0.5991
+  Loss_DS:         0.5960
+  Loss_adv_vocal:     0.1279
+  Loss_adv_speech:     0.1352
+  Loss_Cycle Vocal:     2.0419
+  Loss_Cycle Speech:     2.1691
+  Loss_Identity Vocal:     4.1197
+  Loss_Identity Speech:     4.6481
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 42/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 42 Metrics:
+  Loss_DV:         0.5993
+  Loss_DS:         0.5960
+  Loss_adv_vocal:     0.1280
+  Loss_adv_speech:     0.1353
+  Loss_Cycle Vocal:     2.0343
+  Loss_Cycle Speech:     2.1549
+  Loss_Identity Vocal:     4.0503
+  Loss_Identity Speech:     4.6251
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 43/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 43 Metrics:
+  Loss_DV:         0.5995
+  Loss_DS:         0.5971
+  Loss_adv_vocal:     0.1281
+  Loss_adv_speech:     0.1356
+  Loss_Cycle Vocal:     2.0221
+  Loss_Cycle Speech:     2.1484
+  Loss_Identity Vocal:     4.0214
+  Loss_Identity Speech:     4.6088
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 44/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 44 Metrics:
+  Loss_DV:         0.5992
+  Loss_DS:         0.5971
+  Loss_adv_vocal:     0.1280
+  Loss_adv_speech:     0.1354
+  Loss_Cycle Vocal:     2.0203
+  Loss_Cycle Speech:     2.1441
+  Loss_Identity Vocal:     3.9891
+  Loss_Identity Speech:     4.5943
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 45/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 45 Metrics:
+  Loss_DV:         0.5995
+  Loss_DS:         0.5964
+  Loss_adv_vocal:     0.1276
+  Loss_adv_speech:     0.1353
+  Loss_Cycle Vocal:     2.0284
+  Loss_Cycle Speech:     2.1525
+  Loss_Identity Vocal:     4.0223
+  Loss_Identity Speech:     4.5740
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 46/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 46 Metrics:
+  Loss_DV:         0.5992
+  Loss_DS:         0.5969
+  Loss_adv_vocal:     0.1277
+  Loss_adv_speech:     0.1356
+  Loss_Cycle Vocal:     1.9810
+  Loss_Cycle Speech:     2.1215
+  Loss_Identity Vocal:     3.9693
+  Loss_Identity Speech:     4.5562
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 47/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 47 Metrics:
+  Loss_DV:         0.5994
+  Loss_DS:         0.5970
+  Loss_adv_vocal:     0.1281
+  Loss_adv_speech:     0.1360
+  Loss_Cycle Vocal:     2.0003
+  Loss_Cycle Speech:     2.1365
+  Loss_Identity Vocal:     3.9374
+  Loss_Identity Speech:     4.5301
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 48/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 48 Metrics:
+  Loss_DV:         0.5992
+  Loss_DS:         0.5970
+  Loss_adv_vocal:     0.1274
+  Loss_adv_speech:     0.1353
+  Loss_Cycle Vocal:     1.9679
+  Loss_Cycle Speech:     2.1105
+  Loss_Identity Vocal:     3.9122
+  Loss_Identity Speech:     4.5285
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0065
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 49/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 49 Metrics:
+  Loss_DV:         0.5987
+  Loss_DS:         0.5968
+  Loss_adv_vocal:     0.1279
+  Loss_adv_speech:     0.1353
+  Loss_Cycle Vocal:     1.9728
+  Loss_Cycle Speech:     2.1195
+  Loss_Identity Vocal:     3.8752
+  Loss_Identity Speech:     4.5198
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 50/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 50 Metrics:
+  Loss_DV:         0.5992
+  Loss_DS:         0.5963
+  Loss_adv_vocal:     0.1277
+  Loss_adv_speech:     0.1352
+  Loss_Cycle Vocal:     1.9655
+  Loss_Cycle Speech:     2.1015
+  Loss_Identity Vocal:     3.8361
+  Loss_Identity Speech:     4.4909
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 1/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 1 Metrics:
+  Loss_DV:         0.5999
+  Loss_DS:         0.5971
+  Loss_adv_vocal:     0.1277
+  Loss_adv_speech:     0.1354
+  Loss_Cycle Vocal:     1.9599
+  Loss_Cycle Speech:     2.1198
+  Loss_Identity Vocal:     3.8452
+  Loss_Identity Speech:     4.4762
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 2/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 2 Metrics:
+  Loss_DV:         0.5998
+  Loss_DS:         0.5968
+  Loss_adv_vocal:     0.1275
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     1.9600
+  Loss_Cycle Speech:     2.1029
+  Loss_Identity Vocal:     3.8193
+  Loss_Identity Speech:     4.4597
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 3/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 3 Metrics:
+  Loss_DV:         0.5998
+  Loss_DS:         0.5971
+  Loss_adv_vocal:     0.1275
+  Loss_adv_speech:     0.1353
+  Loss_Cycle Vocal:     1.9155
+  Loss_Cycle Speech:     2.0741
+  Loss_Identity Vocal:     3.7653
+  Loss_Identity Speech:     4.4405
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 4/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 4 Metrics:
+  Loss_DV:         0.6004
+  Loss_DS:         0.5968
+  Loss_adv_vocal:     0.1276
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     1.9201
+  Loss_Cycle Speech:     2.0830
+  Loss_Identity Vocal:     3.7360
+  Loss_Identity Speech:     4.4139
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 5/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 5 Metrics:
+  Loss_DV:         0.5996
+  Loss_DS:         0.5978
+  Loss_adv_vocal:     0.1274
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     2.0113
+  Loss_Cycle Speech:     2.1290
+  Loss_Identity Vocal:     3.7633
+  Loss_Identity Speech:     4.4258
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0081
+  Grad Norm GS:    0.0079
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 6/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 6 Metrics:
+  Loss_DV:         0.6038
+  Loss_DS:         0.5970
+  Loss_adv_vocal:     0.1251
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     1.9315
+  Loss_Cycle Speech:     2.0786
+  Loss_Identity Vocal:     3.7294
+  Loss_Identity Speech:     4.4555
+  Grad Norm DV:    1.1133
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0069
+  num_DV_updates:    3.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 7/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 7 Metrics:
+  Loss_DV:         0.7172
+  Loss_DS:         0.5974
+  Loss_adv_vocal:     0.0771
+  Loss_adv_speech:     0.1354
+  Loss_Cycle Vocal:     1.9226
+  Loss_Cycle Speech:     2.0663
+  Loss_Identity Vocal:     3.6996
+  Loss_Identity Speech:     4.3775
+  Grad Norm DV:    0.3229
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0071
+  num_DV_updates:    15.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 8/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 8 Metrics:
+  Loss_DV:         0.6093
+  Loss_DS:         0.5978
+  Loss_adv_vocal:     0.1328
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     1.9621
+  Loss_Cycle Speech:     2.0977
+  Loss_Identity Vocal:     3.7149
+  Loss_Identity Speech:     4.3708
+  Grad Norm DV:    0.5101
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0071
+  num_DV_updates:    6.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 9/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 9 Metrics:
+  Loss_DV:         0.6629
+  Loss_DS:         0.5970
+  Loss_adv_vocal:     0.0957
+  Loss_adv_speech:     0.1352
+  Loss_Cycle Vocal:     1.9295
+  Loss_Cycle Speech:     2.0808
+  Loss_Identity Vocal:     3.6738
+  Loss_Identity Speech:     4.3472
+  Grad Norm DV:    0.2863
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0066
+  num_DV_updates:    13.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 10/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 10 Metrics:
+  Loss_DV:         0.6394
+  Loss_DS:         0.5966
+  Loss_adv_vocal:     0.1023
+  Loss_adv_speech:     0.1353
+  Loss_Cycle Vocal:     1.9240
+  Loss_Cycle Speech:     2.0666
+  Loss_Identity Vocal:     3.6738
+  Loss_Identity Speech:     4.3260
+  Grad Norm DV:    0.2168
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    13.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 11/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 11 Metrics:
+  Loss_DV:         0.5884
+  Loss_DS:         0.5976
+  Loss_adv_vocal:     0.1303
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     2.0089
+  Loss_Cycle Speech:     2.1293
+  Loss_Identity Vocal:     3.6857
+  Loss_Identity Speech:     4.3110
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0080
+  Grad Norm GS:    0.0080
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 12/50 ===
+Training Batches: 65it [01:10,  1.08s/it]
+Epoch 12 Metrics:
+  Loss_DV:         0.5884
+  Loss_DS:         0.5969
+  Loss_adv_vocal:     0.1305
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     1.9611
+  Loss_Cycle Speech:     2.1095
+  Loss_Identity Vocal:     3.6809
+  Loss_Identity Speech:     4.3377
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 13/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 13 Metrics:
+  Loss_DV:         0.5886
+  Loss_DS:         0.5968
+  Loss_adv_vocal:     0.1301
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     1.9638
+  Loss_Cycle Speech:     2.1092
+  Loss_Identity Vocal:     3.6618
+  Loss_Identity Speech:     4.3429
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 14/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 14 Metrics:
+  Loss_DV:         0.5879
+  Loss_DS:         0.5980
+  Loss_adv_vocal:     0.1303
+  Loss_adv_speech:     0.1350
+  Loss_Cycle Vocal:     1.9438
+  Loss_Cycle Speech:     2.0856
+  Loss_Identity Vocal:     3.6547
+  Loss_Identity Speech:     4.3023
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 15/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 15 Metrics:
+  Loss_DV:         0.5884
+  Loss_DS:         0.5976
+  Loss_adv_vocal:     0.1303
+  Loss_adv_speech:     0.1355
+  Loss_Cycle Vocal:     1.9614
+  Loss_Cycle Speech:     2.0873
+  Loss_Identity Vocal:     3.6706
+  Loss_Identity Speech:     4.2988
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 16/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 16 Metrics:
+  Loss_DV:         0.5877
+  Loss_DS:         0.5961
+  Loss_adv_vocal:     0.1304
+  Loss_adv_speech:     0.1351
+  Loss_Cycle Vocal:     1.9196
+  Loss_Cycle Speech:     2.0618
+  Loss_Identity Vocal:     3.6303
+  Loss_Identity Speech:     4.2833
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 17/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 17 Metrics:
+  Loss_DV:         0.5886
+  Loss_DS:         0.5975
+  Loss_adv_vocal:     0.1302
+  Loss_adv_speech:     0.1348
+  Loss_Cycle Vocal:     1.8843
+  Loss_Cycle Speech:     2.0389
+  Loss_Identity Vocal:     3.5693
+  Loss_Identity Speech:     4.2484
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 18/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 18 Metrics:
+  Loss_DV:         0.5889
+  Loss_DS:         0.5990
+  Loss_adv_vocal:     0.1300
+  Loss_adv_speech:     0.1337
+  Loss_Cycle Vocal:     1.8938
+  Loss_Cycle Speech:     2.0383
+  Loss_Identity Vocal:     3.6251
+  Loss_Identity Speech:     4.1948
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    1.0741
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    3.0000
+
+=== Epoch 19/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 19 Metrics:
+  Loss_DV:         0.5888
+  Loss_DS:         0.6784
+  Loss_adv_vocal:     0.1304
+  Loss_adv_speech:     0.0926
+  Loss_Cycle Vocal:     1.9436
+  Loss_Cycle Speech:     2.0709
+  Loss_Identity Vocal:     3.6091
+  Loss_Identity Speech:     4.1965
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.3489
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    13.0000
+
+=== Epoch 20/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 20 Metrics:
+  Loss_DV:         0.5888
+  Loss_DS:         0.6287
+  Loss_adv_vocal:     0.1299
+  Loss_adv_speech:     0.1141
+  Loss_Cycle Vocal:     1.9410
+  Loss_Cycle Speech:     2.0751
+  Loss_Identity Vocal:     3.6213
+  Loss_Identity Speech:     4.2056
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.2175
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    12.0000
+
+=== Epoch 21/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 21 Metrics:
+  Loss_DV:         0.5889
+  Loss_DS:         0.6190
+  Loss_adv_vocal:     0.1301
+  Loss_adv_speech:     0.1172
+  Loss_Cycle Vocal:     1.9393
+  Loss_Cycle Speech:     2.0719
+  Loss_Identity Vocal:     3.5880
+  Loss_Identity Speech:     4.2015
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.5229
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    6.0000
+
+=== Epoch 22/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 22 Metrics:
+  Loss_DV:         0.5885
+  Loss_DS:         0.6591
+  Loss_adv_vocal:     0.1302
+  Loss_adv_speech:     0.0972
+  Loss_Cycle Vocal:     1.9046
+  Loss_Cycle Speech:     2.0322
+  Loss_Identity Vocal:     3.5887
+  Loss_Identity Speech:     4.1563
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.2463
+  Grad Norm GV:    0.0066
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    14.0000
+
+=== Epoch 23/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 23 Metrics:
+  Loss_DV:         0.5892
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1300
+  Loss_adv_speech:     0.1311
+  Loss_Cycle Vocal:     1.9267
+  Loss_Cycle Speech:     2.0430
+  Loss_Identity Vocal:     3.6220
+  Loss_Identity Speech:     4.2415
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 24/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 24 Metrics:
+  Loss_DV:         0.5896
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1298
+  Loss_adv_speech:     0.1310
+  Loss_Cycle Vocal:     1.9324
+  Loss_Cycle Speech:     2.0686
+  Loss_Identity Vocal:     3.5661
+  Loss_Identity Speech:     4.2722
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0075
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 25/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 25 Metrics:
+  Loss_DV:         0.5889
+  Loss_DS:         0.5954
+  Loss_adv_vocal:     0.1301
+  Loss_adv_speech:     0.1311
+  Loss_Cycle Vocal:     1.9176
+  Loss_Cycle Speech:     2.0456
+  Loss_Identity Vocal:     3.5458
+  Loss_Identity Speech:     4.1909
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 26/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 26 Metrics:
+  Loss_DV:         0.5893
+  Loss_DS:         0.5957
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1305
+  Loss_Cycle Vocal:     1.9107
+  Loss_Cycle Speech:     2.0217
+  Loss_Identity Vocal:     3.5093
+  Loss_Identity Speech:     4.0957
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 27/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 27 Metrics:
+  Loss_DV:         0.5893
+  Loss_DS:         0.5956
+  Loss_adv_vocal:     0.1298
+  Loss_adv_speech:     0.1311
+  Loss_Cycle Vocal:     1.9151
+  Loss_Cycle Speech:     2.0207
+  Loss_Identity Vocal:     3.5080
+  Loss_Identity Speech:     4.0844
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 28/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 28 Metrics:
+  Loss_DV:         0.5884
+  Loss_DS:         0.5954
+  Loss_adv_vocal:     0.1296
+  Loss_adv_speech:     0.1305
+  Loss_Cycle Vocal:     1.9082
+  Loss_Cycle Speech:     2.0348
+  Loss_Identity Vocal:     3.5204
+  Loss_Identity Speech:     4.1036
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 29/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 29 Metrics:
+  Loss_DV:         0.5895
+  Loss_DS:         0.5949
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1310
+  Loss_Cycle Vocal:     1.9081
+  Loss_Cycle Speech:     2.0302
+  Loss_Identity Vocal:     3.5427
+  Loss_Identity Speech:     4.1536
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 30/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 30 Metrics:
+  Loss_DV:         0.5887
+  Loss_DS:         0.5957
+  Loss_adv_vocal:     0.1300
+  Loss_adv_speech:     0.1313
+  Loss_Cycle Vocal:     1.8993
+  Loss_Cycle Speech:     2.0189
+  Loss_Identity Vocal:     3.4785
+  Loss_Identity Speech:     4.2226
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 31/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 31 Metrics:
+  Loss_DV:         0.5889
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1307
+  Loss_Cycle Vocal:     1.9037
+  Loss_Cycle Speech:     2.0254
+  Loss_Identity Vocal:     3.4456
+  Loss_Identity Speech:     4.0966
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 32/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 32 Metrics:
+  Loss_DV:         0.5892
+  Loss_DS:         0.5965
+  Loss_adv_vocal:     0.1296
+  Loss_adv_speech:     0.1307
+  Loss_Cycle Vocal:     1.8978
+  Loss_Cycle Speech:     2.0042
+  Loss_Identity Vocal:     3.4553
+  Loss_Identity Speech:     4.0452
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 33/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 33 Metrics:
+  Loss_DV:         0.5887
+  Loss_DS:         0.5959
+  Loss_adv_vocal:     0.1300
+  Loss_adv_speech:     0.1306
+  Loss_Cycle Vocal:     1.9096
+  Loss_Cycle Speech:     2.0351
+  Loss_Identity Vocal:     3.4210
+  Loss_Identity Speech:     4.0251
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 34/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 34 Metrics:
+  Loss_DV:         0.5897
+  Loss_DS:         0.5959
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1308
+  Loss_Cycle Vocal:     1.9091
+  Loss_Cycle Speech:     2.0629
+  Loss_Identity Vocal:     3.4291
+  Loss_Identity Speech:     4.0365
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 35/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 35 Metrics:
+  Loss_DV:         0.5899
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1293
+  Loss_adv_speech:     0.1304
+  Loss_Cycle Vocal:     1.8597
+  Loss_Cycle Speech:     1.9825
+  Loss_Identity Vocal:     3.3810
+  Loss_Identity Speech:     4.0108
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 36/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 36 Metrics:
+  Loss_DV:         0.5897
+  Loss_DS:         0.5955
+  Loss_adv_vocal:     0.1300
+  Loss_adv_speech:     0.1305
+  Loss_Cycle Vocal:     1.8307
+  Loss_Cycle Speech:     1.9600
+  Loss_Identity Vocal:     3.3511
+  Loss_Identity Speech:     3.9926
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 37/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 37 Metrics:
+  Loss_DV:         0.5892
+  Loss_DS:         0.5957
+  Loss_adv_vocal:     0.1294
+  Loss_adv_speech:     0.1308
+  Loss_Cycle Vocal:     1.8383
+  Loss_Cycle Speech:     1.9560
+  Loss_Identity Vocal:     3.3400
+  Loss_Identity Speech:     3.9753
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 38/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 38 Metrics:
+  Loss_DV:         0.5890
+  Loss_DS:         0.5952
+  Loss_adv_vocal:     0.1297
+  Loss_adv_speech:     0.1306
+  Loss_Cycle Vocal:     1.8875
+  Loss_Cycle Speech:     1.9983
+  Loss_Identity Vocal:     3.3829
+  Loss_Identity Speech:     3.9906
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 39/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 39 Metrics:
+  Loss_DV:         0.5903
+  Loss_DS:         0.5953
+  Loss_adv_vocal:     0.1298
+  Loss_adv_speech:     0.1309
+  Loss_Cycle Vocal:     1.8941
+  Loss_Cycle Speech:     2.0075
+  Loss_Identity Vocal:     3.3854
+  Loss_Identity Speech:     4.0498
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 40/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 40 Metrics:
+  Loss_DV:         0.5899
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1310
+  Loss_Cycle Vocal:     1.8836
+  Loss_Cycle Speech:     2.0048
+  Loss_Identity Vocal:     3.3715
+  Loss_Identity Speech:     4.0376
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 41/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 41 Metrics:
+  Loss_DV:         0.5902
+  Loss_DS:         0.5959
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1303
+  Loss_Cycle Vocal:     1.8705
+  Loss_Cycle Speech:     1.9956
+  Loss_Identity Vocal:     3.3581
+  Loss_Identity Speech:     3.9896
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 42/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 42 Metrics:
+  Loss_DV:         0.5899
+  Loss_DS:         0.5962
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1306
+  Loss_Cycle Vocal:     1.8885
+  Loss_Cycle Speech:     2.0012
+  Loss_Identity Vocal:     3.3981
+  Loss_Identity Speech:     3.9785
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 43/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 43 Metrics:
+  Loss_DV:         0.5894
+  Loss_DS:         0.5949
+  Loss_adv_vocal:     0.1292
+  Loss_adv_speech:     0.1303
+  Loss_Cycle Vocal:     1.8017
+  Loss_Cycle Speech:     1.9435
+  Loss_Identity Vocal:     3.2968
+  Loss_Identity Speech:     4.0930
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0067
+  Grad Norm GS:    0.0064
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 44/50 ===
+Training Batches: 65it [01:09,  1.08s/it]
+Epoch 44 Metrics:
+  Loss_DV:         0.5898
+  Loss_DS:         0.5960
+  Loss_adv_vocal:     0.1293
+  Loss_adv_speech:     0.1308
+  Loss_Cycle Vocal:     1.8093
+  Loss_Cycle Speech:     1.9533
+  Loss_Identity Vocal:     3.2487
+  Loss_Identity Speech:     3.9425
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0083
+  Grad Norm GS:    0.0081
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 45/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 45 Metrics:
+  Loss_DV:         0.5901
+  Loss_DS:         0.5958
+  Loss_adv_vocal:     0.1294
+  Loss_adv_speech:     0.1309
+  Loss_Cycle Vocal:     1.8081
+  Loss_Cycle Speech:     1.9340
+  Loss_Identity Vocal:     3.2205
+  Loss_Identity Speech:     3.9052
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0088
+  Grad Norm GS:    0.0087
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 46/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 46 Metrics:
+  Loss_DV:         0.5899
+  Loss_DS:         0.5955
+  Loss_adv_vocal:     0.1291
+  Loss_adv_speech:     0.1304
+  Loss_Cycle Vocal:     1.7942
+  Loss_Cycle Speech:     1.9300
+  Loss_Identity Vocal:     3.2045
+  Loss_Identity Speech:     3.8753
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0075
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 47/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 47 Metrics:
+  Loss_DV:         0.5907
+  Loss_DS:         0.5969
+  Loss_adv_vocal:     0.1294
+  Loss_adv_speech:     0.1306
+  Loss_Cycle Vocal:     1.7880
+  Loss_Cycle Speech:     1.9332
+  Loss_Identity Vocal:     3.2077
+  Loss_Identity Speech:     3.8916
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0075
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 48/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 48 Metrics:
+  Loss_DV:         0.5904
+  Loss_DS:         0.5964
+  Loss_adv_vocal:     0.1293
+  Loss_adv_speech:     0.1305
+  Loss_Cycle Vocal:     1.7789
+  Loss_Cycle Speech:     1.9420
+  Loss_Identity Vocal:     3.1899
+  Loss_Identity Speech:     3.8732
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0079
+  Grad Norm GS:    0.0077
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 49/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 49 Metrics:
+  Loss_DV:         0.5903
+  Loss_DS:         0.5978
+  Loss_adv_vocal:     0.1295
+  Loss_adv_speech:     0.1305
+  Loss_Cycle Vocal:     1.8236
+  Loss_Cycle Speech:     1.9619
+  Loss_Identity Vocal:     3.2044
+  Loss_Identity Speech:     3.8750
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0081
+  Grad Norm GS:    0.0080
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+
+=== Epoch 1/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 1 Metrics:
+  Loss_DV:         0.5946
+  Loss_DS:         0.5874
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1274
+  Loss_Cycle Vocal:     1.4000
+  Loss_Cycle Speech:     1.5400
+  Loss_Identity Vocal:     2.7559
+  Loss_Identity Speech:     3.3922
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 2/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 2 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5868
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1270
+  Loss_Cycle Vocal:     1.3859
+  Loss_Cycle Speech:     1.5357
+  Loss_Identity Vocal:     2.6469
+  Loss_Identity Speech:     3.2554
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 3/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 3 Metrics:
+  Loss_DV:         0.5939
+  Loss_DS:         0.5883
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1270
+  Loss_Cycle Vocal:     1.4013
+  Loss_Cycle Speech:     1.5437
+  Loss_Identity Vocal:     2.5942
+  Loss_Identity Speech:     3.1783
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 4/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 4 Metrics:
+  Loss_DV:         0.5940
+  Loss_DS:         0.5888
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1270
+  Loss_Cycle Vocal:     1.3666
+  Loss_Cycle Speech:     1.5382
+  Loss_Identity Vocal:     2.5268
+  Loss_Identity Speech:     3.1693
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 5/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 5 Metrics:
+  Loss_DV:         0.5946
+  Loss_DS:         0.5875
+  Loss_adv_vocal:     0.1506
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3847
+  Loss_Cycle Speech:     1.5501
+  Loss_Identity Vocal:     2.4967
+  Loss_Identity Speech:     3.1304
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 6/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 6 Metrics:
+  Loss_DV:         0.5950
+  Loss_DS:         0.5880
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1270
+  Loss_Cycle Vocal:     1.3798
+  Loss_Cycle Speech:     1.5326
+  Loss_Identity Vocal:     2.4650
+  Loss_Identity Speech:     3.0571
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 7/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 7 Metrics:
+  Loss_DV:         0.5941
+  Loss_DS:         0.5877
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1268
+  Loss_Cycle Vocal:     1.3547
+  Loss_Cycle Speech:     1.5010
+  Loss_Identity Vocal:     2.4255
+  Loss_Identity Speech:     3.0406
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 8/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 8 Metrics:
+  Loss_DV:         0.5939
+  Loss_DS:         0.5881
+  Loss_adv_vocal:     0.1507
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3660
+  Loss_Cycle Speech:     1.5017
+  Loss_Identity Vocal:     2.4172
+  Loss_Identity Speech:     3.0177
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 9/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 9 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5882
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3718
+  Loss_Cycle Speech:     1.5153
+  Loss_Identity Vocal:     2.4107
+  Loss_Identity Speech:     3.0017
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 10/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 10 Metrics:
+  Loss_DV:         0.5945
+  Loss_DS:         0.5878
+  Loss_adv_vocal:     0.1506
+  Loss_adv_speech:     0.1268
+  Loss_Cycle Vocal:     1.3819
+  Loss_Cycle Speech:     1.5282
+  Loss_Identity Vocal:     2.4114
+  Loss_Identity Speech:     3.0164
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 11/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 11 Metrics:
+  Loss_DV:         0.5944
+  Loss_DS:         0.5875
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1263
+  Loss_Cycle Vocal:     1.4066
+  Loss_Cycle Speech:     1.5447
+  Loss_Identity Vocal:     2.4274
+  Loss_Identity Speech:     3.0435
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0075
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 12/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 12 Metrics:
+  Loss_DV:         0.5942
+  Loss_DS:         0.5883
+  Loss_adv_vocal:     0.1507
+  Loss_adv_speech:     0.1268
+  Loss_Cycle Vocal:     1.3721
+  Loss_Cycle Speech:     1.5260
+  Loss_Identity Vocal:     2.4118
+  Loss_Identity Speech:     3.0195
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 13/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 13 Metrics:
+  Loss_DV:         0.5939
+  Loss_DS:         0.5880
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3752
+  Loss_Cycle Speech:     1.5039
+  Loss_Identity Vocal:     2.3958
+  Loss_Identity Speech:     2.9875
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 14/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 14 Metrics:
+  Loss_DV:         0.5942
+  Loss_DS:         0.5881
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3199
+  Loss_Cycle Speech:     1.4785
+  Loss_Identity Vocal:     2.3705
+  Loss_Identity Speech:     3.0034
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0063
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 15/50 ===
+Training Batches: 65it [01:11,  1.09s/it]
+Epoch 15 Metrics:
+  Loss_DV:         0.5933
+  Loss_DS:         0.5883
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3571
+  Loss_Cycle Speech:     1.5050
+  Loss_Identity Vocal:     2.3672
+  Loss_Identity Speech:     3.0171
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 16/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 16 Metrics:
+  Loss_DV:         0.5948
+  Loss_DS:         0.5888
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1270
+  Loss_Cycle Vocal:     1.4000
+  Loss_Cycle Speech:     1.5391
+  Loss_Identity Vocal:     2.3799
+  Loss_Identity Speech:     3.0391
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0076
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 17/50 ===
+Training Batches: 65it [01:11,  1.09s/it]
+Epoch 17 Metrics:
+  Loss_DV:         0.5942
+  Loss_DS:         0.5880
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1267
+  Loss_Cycle Vocal:     1.3717
+  Loss_Cycle Speech:     1.5136
+  Loss_Identity Vocal:     2.3639
+  Loss_Identity Speech:     2.9769
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 18/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 18 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5874
+  Loss_adv_vocal:     0.1500
+  Loss_adv_speech:     0.1267
+  Loss_Cycle Vocal:     1.3831
+  Loss_Cycle Speech:     1.5332
+  Loss_Identity Vocal:     2.3757
+  Loss_Identity Speech:     2.9881
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 19/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 19 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5873
+  Loss_adv_vocal:     0.1507
+  Loss_adv_speech:     0.1267
+  Loss_Cycle Vocal:     1.3772
+  Loss_Cycle Speech:     1.5368
+  Loss_Identity Vocal:     2.3698
+  Loss_Identity Speech:     3.0080
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 20/50 ===
+Training Batches: 65it [01:10,  1.09s/it]
+Epoch 20 Metrics:
+  Loss_DV:         0.5953
+  Loss_DS:         0.5879
+  Loss_adv_vocal:     0.1506
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3863
+  Loss_Cycle Speech:     1.5282
+  Loss_Identity Vocal:     2.3777
+  Loss_Identity Speech:     3.0255
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 21/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 21 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5879
+  Loss_adv_vocal:     0.1502
+  Loss_adv_speech:     0.1267
+  Loss_Cycle Vocal:     1.3807
+  Loss_Cycle Speech:     1.5322
+  Loss_Identity Vocal:     2.3811
+  Loss_Identity Speech:     2.9921
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 22/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 22 Metrics:
+  Loss_DV:         0.5951
+  Loss_DS:         0.5887
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1263
+  Loss_Cycle Vocal:     1.3810
+  Loss_Cycle Speech:     1.5345
+  Loss_Identity Vocal:     2.3551
+  Loss_Identity Speech:     2.9763
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0077
+  Grad Norm GS:    0.0075
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 23/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 23 Metrics:
+  Loss_DV:         0.5940
+  Loss_DS:         0.5879
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3462
+  Loss_Cycle Speech:     1.5105
+  Loss_Identity Vocal:     2.3241
+  Loss_Identity Speech:     3.1547
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 24/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 24 Metrics:
+  Loss_DV:         0.5945
+  Loss_DS:         0.5880
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3660
+  Loss_Cycle Speech:     1.5130
+  Loss_Identity Vocal:     2.3508
+  Loss_Identity Speech:     2.9993
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0071
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 25/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 25 Metrics:
+  Loss_DV:         0.5939
+  Loss_DS:         0.5877
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1266
+  Loss_Cycle Vocal:     1.3750
+  Loss_Cycle Speech:     1.5255
+  Loss_Identity Vocal:     2.3284
+  Loss_Identity Speech:     2.9720
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 26/50 ===
+Training Batches: 65it [01:09,  1.07s/it]
+Epoch 26 Metrics:
+  Loss_DV:         0.5942
+  Loss_DS:         0.5884
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1267
+  Loss_Cycle Vocal:     1.3358
+  Loss_Cycle Speech:     1.4890
+  Loss_Identity Vocal:     2.3187
+  Loss_Identity Speech:     2.9520
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 27/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 27 Metrics:
+  Loss_DV:         0.5947
+  Loss_DS:         0.5900
+  Loss_adv_vocal:     0.1506
+  Loss_adv_speech:     0.1264
+  Loss_Cycle Vocal:     1.3616
+  Loss_Cycle Speech:     1.5061
+  Loss_Identity Vocal:     2.3300
+  Loss_Identity Speech:     3.0127
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 28/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 28 Metrics:
+  Loss_DV:         0.5950
+  Loss_DS:         0.5887
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1266
+  Loss_Cycle Vocal:     1.3924
+  Loss_Cycle Speech:     1.5209
+  Loss_Identity Vocal:     2.3258
+  Loss_Identity Speech:     2.9929
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0075
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 29/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 29 Metrics:
+  Loss_DV:         0.5946
+  Loss_DS:         0.5887
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3467
+  Loss_Cycle Speech:     1.4846
+  Loss_Identity Vocal:     2.2971
+  Loss_Identity Speech:     2.9724
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 30/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 30 Metrics:
+  Loss_DV:         0.5939
+  Loss_DS:         0.5885
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3839
+  Loss_Cycle Speech:     1.5174
+  Loss_Identity Vocal:     2.3034
+  Loss_Identity Speech:     2.9572
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0080
+  Grad Norm GS:    0.0078
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 31/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 31 Metrics:
+  Loss_DV:         0.5944
+  Loss_DS:         0.5882
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3161
+  Loss_Cycle Speech:     1.4780
+  Loss_Identity Vocal:     2.2732
+  Loss_Identity Speech:     2.9202
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0068
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 32/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 32 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5892
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1268
+  Loss_Cycle Vocal:     1.3092
+  Loss_Cycle Speech:     1.4736
+  Loss_Identity Vocal:     2.2911
+  Loss_Identity Speech:     2.9097
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0063
+  Grad Norm GS:    0.0060
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 33/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 33 Metrics:
+  Loss_DV:         0.5945
+  Loss_DS:         0.5892
+  Loss_adv_vocal:     0.1502
+  Loss_adv_speech:     0.1266
+  Loss_Cycle Vocal:     1.3454
+  Loss_Cycle Speech:     1.4952
+  Loss_Identity Vocal:     2.2632
+  Loss_Identity Speech:     2.9277
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0077
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 34/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 34 Metrics:
+  Loss_DV:         0.5950
+  Loss_DS:         0.5890
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3548
+  Loss_Cycle Speech:     1.5240
+  Loss_Identity Vocal:     2.2750
+  Loss_Identity Speech:     2.9491
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0076
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 35/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 35 Metrics:
+  Loss_DV:         0.5948
+  Loss_DS:         0.5888
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3545
+  Loss_Cycle Speech:     1.5133
+  Loss_Identity Vocal:     2.3128
+  Loss_Identity Speech:     2.9736
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0072
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 36/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 36 Metrics:
+  Loss_DV:         0.5947
+  Loss_DS:         0.5895
+  Loss_adv_vocal:     0.1505
+  Loss_adv_speech:     0.1264
+  Loss_Cycle Vocal:     1.3367
+  Loss_Cycle Speech:     1.4789
+  Loss_Identity Vocal:     2.3146
+  Loss_Identity Speech:     2.9516
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0064
+  Grad Norm GS:    0.0061
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 37/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 37 Metrics:
+  Loss_DV:         0.5950
+  Loss_DS:         0.5889
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1263
+  Loss_Cycle Vocal:     1.3394
+  Loss_Cycle Speech:     1.4892
+  Loss_Identity Vocal:     2.2832
+  Loss_Identity Speech:     2.9268
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 38/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 38 Metrics:
+  Loss_DV:         0.5939
+  Loss_DS:         0.5892
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3550
+  Loss_Cycle Speech:     1.4979
+  Loss_Identity Vocal:     2.3114
+  Loss_Identity Speech:     2.9273
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 39/50 ===
+Training Batches: 65it [01:11,  1.11s/it]
+Epoch 39 Metrics:
+  Loss_DV:         0.5945
+  Loss_DS:         0.5892
+  Loss_adv_vocal:     0.1502
+  Loss_adv_speech:     0.1269
+  Loss_Cycle Vocal:     1.3536
+  Loss_Cycle Speech:     1.4959
+  Loss_Identity Vocal:     2.2945
+  Loss_Identity Speech:     2.9421
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 40/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 40 Metrics:
+  Loss_DV:         0.5952
+  Loss_DS:         0.5892
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1264
+  Loss_Cycle Vocal:     1.3077
+  Loss_Cycle Speech:     1.4528
+  Loss_Identity Vocal:     2.2590
+  Loss_Identity Speech:     2.9232
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0067
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 41/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 41 Metrics:
+  Loss_DV:         0.5948
+  Loss_DS:         0.5888
+  Loss_adv_vocal:     0.1502
+  Loss_adv_speech:     0.1267
+  Loss_Cycle Vocal:     1.3437
+  Loss_Cycle Speech:     1.4899
+  Loss_Identity Vocal:     2.2633
+  Loss_Identity Speech:     2.9296
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0075
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 42/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 42 Metrics:
+  Loss_DV:         0.5948
+  Loss_DS:         0.5885
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1268
+  Loss_Cycle Vocal:     1.3601
+  Loss_Cycle Speech:     1.5127
+  Loss_Identity Vocal:     2.2797
+  Loss_Identity Speech:     2.9302
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0080
+  Grad Norm GS:    0.0076
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 43/50 ===
+Training Batches: 65it [01:11,  1.10s/it]
+Epoch 43 Metrics:
+  Loss_DV:         0.5953
+  Loss_DS:         0.5890
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1268
+  Loss_Cycle Vocal:     1.3685
+  Loss_Cycle Speech:     1.5118
+  Loss_Identity Vocal:     2.2748
+  Loss_Identity Speech:     2.9274
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 44/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 44 Metrics:
+  Loss_DV:         0.5949
+  Loss_DS:         0.5892
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1266
+  Loss_Cycle Vocal:     1.3532
+  Loss_Cycle Speech:     1.4936
+  Loss_Identity Vocal:     2.2774
+  Loss_Identity Speech:     2.9289
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 45/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 45 Metrics:
+  Loss_DV:         0.5949
+  Loss_DS:         0.5888
+  Loss_adv_vocal:     0.1500
+  Loss_adv_speech:     0.1266
+  Loss_Cycle Vocal:     1.3081
+  Loss_Cycle Speech:     1.4653
+  Loss_Identity Vocal:     2.2622
+  Loss_Identity Speech:     2.8994
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0073
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 46/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 46 Metrics:
+  Loss_DV:         0.5947
+  Loss_DS:         0.5893
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1266
+  Loss_Cycle Vocal:     1.3067
+  Loss_Cycle Speech:     1.4699
+  Loss_Identity Vocal:     2.2455
+  Loss_Identity Speech:     3.1022
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 47/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 47 Metrics:
+  Loss_DV:         0.5943
+  Loss_DS:         0.5891
+  Loss_adv_vocal:     0.1503
+  Loss_adv_speech:     0.1263
+  Loss_Cycle Vocal:     1.3217
+  Loss_Cycle Speech:     1.4666
+  Loss_Identity Vocal:     2.2464
+  Loss_Identity Speech:     2.9409
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0071
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 48/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 48 Metrics:
+  Loss_DV:         0.5951
+  Loss_DS:         0.5892
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1262
+  Loss_Cycle Vocal:     1.3031
+  Loss_Cycle Speech:     1.4515
+  Loss_Identity Vocal:     2.2616
+  Loss_Identity Speech:     2.9284
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0069
+  Grad Norm GS:    0.0066
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 49/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 49 Metrics:
+  Loss_DV:         0.5944
+  Loss_DS:         0.5891
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1265
+  Loss_Cycle Vocal:     1.3254
+  Loss_Cycle Speech:     1.4690
+  Loss_Identity Vocal:     2.2676
+  Loss_Identity Speech:     2.9153
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0070
+  Grad Norm GS:    0.0068
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 50/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 50 Metrics:
+  Loss_DV:         0.5953
+  Loss_DS:         0.5894
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1270
+  Loss_Cycle Vocal:     1.3264
+  Loss_Cycle Speech:     1.4724
+  Loss_Identity Vocal:     2.2596
+  Loss_Identity Speech:     2.8932
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0069
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 1/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 1 Metrics:
+  Loss_DV:         0.5944
+  Loss_DS:         0.5882
+  Loss_adv_vocal:     0.1500
+  Loss_adv_speech:     0.1263
+  Loss_Cycle Vocal:     1.3309
+  Loss_Cycle Speech:     1.4686
+  Loss_Identity Vocal:     2.2617
+  Loss_Identity Speech:     2.8847
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0074
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 2/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 2 Metrics:
+  Loss_DV:         0.5944
+  Loss_DS:         0.5889
+  Loss_adv_vocal:     0.1502
+  Loss_adv_speech:     0.1263
+  Loss_Cycle Vocal:     1.2965
+  Loss_Cycle Speech:     1.4565
+  Loss_Identity Vocal:     2.2496
+  Loss_Identity Speech:     2.9186
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0072
+  Grad Norm GS:    0.0070
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 3/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 3 Metrics:
+  Loss_DV:         0.5942
+  Loss_DS:         0.5890
+  Loss_adv_vocal:     0.1500
+  Loss_adv_speech:     0.1266
+  Loss_Cycle Vocal:     1.3260
+  Loss_Cycle Speech:     1.4894
+  Loss_Identity Vocal:     2.2520
+  Loss_Identity Speech:     2.9142
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0073
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 4/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 4 Metrics:
+  Loss_DV:         0.5949
+  Loss_DS:         0.5883
+  Loss_adv_vocal:     0.1500
+  Loss_adv_speech:     0.1262
+  Loss_Cycle Vocal:     1.3413
+  Loss_Cycle Speech:     1.5000
+  Loss_Identity Vocal:     2.2791
+  Loss_Identity Speech:     2.9177
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0076
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 5/50 ===
+Training Batches: 65it [01:12,  1.12s/it]
+Epoch 5 Metrics:
+  Loss_DV:         0.5948
+  Loss_DS:         0.5890
+  Loss_adv_vocal:     0.1504
+  Loss_adv_speech:     0.1263
+  Loss_Cycle Vocal:     1.3447
+  Loss_Cycle Speech:     1.4946
+  Loss_Identity Vocal:     2.2682
+  Loss_Identity Speech:     2.9309
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0078
+  Grad Norm GS:    0.0075
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 6/50 ===
+Training Batches: 65it [01:12,  1.11s/it]
+Epoch 6 Metrics:
+  Loss_DV:         0.5947
+  Loss_DS:         0.5894
+  Loss_adv_vocal:     0.1501
+  Loss_adv_speech:     0.1264
+  Loss_Cycle Vocal:     1.3418
+  Loss_Cycle Speech:     1.4891
+  Loss_Identity Vocal:     2.2745
+  Loss_Identity Speech:     2.9171
+  Grad Norm DV:    0.0000
+  Grad Norm DS:    0.0000
+  Grad Norm GV:    0.0077
+  Grad Norm GS:    0.0074
+  num_DV_updates:    0.0000
+  num_DS_updates:    0.0000
+
+=== Epoch 7/50 ===
+Training Batches: 37it [00:41,  1.12s/it]
