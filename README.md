@@ -2,7 +2,7 @@
 Erdos deep learning bootcamp final project
 
 ## Introduction
-The goal of this project was to create a model that, when given plain speech and some instrumental music, generates a vocal track from the speech that both suits the music and sounds like the speeker was singing. We used a CycleGAN with [Wave-U-Net-Pytorch](https://github.com/f90/Wave-U-Net-Pytorch/tree/master) by Daniel Stoller acting as the generative models and [MINIROCKETPlus](https://timeseriesai.github.io/tsai/models.minirocketplus_pytorch.html) as the discriminator. For the speech, we used [LibriSpeech](https://www.openslr.org/12) and for the music (vocals and accompaniment) we used [MUSDB18](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). We applied Librosa to transform the audio to a mel spectrogram to reduce the size of the inputs to the models. Because this is a lossy transformation, we needed to recover the phase information using the classical Griffin-Lim algorithm in Librosa. 
+The goal of this project was to create a model that, when given plain speech and some instrumental music, generates a vocal track from the speech that both suits the music and sounds like the speeker was singing. We used a CycleGAN with [Wave-U-Net-Pytorch](https://github.com/f90/Wave-U-Net-Pytorch/tree/master) by Daniel Stoller acting as the generative models and [MINIROCKETPlus](https://timeseriesai.github.io/tsai/models.minirocketplus_pytorch.html) as the discriminator. For the speech, we used [LibriSpeech](https://www.openslr.org/12) and for the music (vocals and accompaniment) we used [MUSDB18](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems). We applied Librosa to transform the audio to a mel spectrogram to reduce the size of the inputs to the models. Because this is a lossy transformation, we needed to recover the phase information using the classical Griffin-Lim algorithm in [Librosa](https://librosa.org/doc/latest/index.html#). 
 
 ## CycleGAN - Generators, Discriminators, and Losses
 The model class VocalCycleGAN defined in vcgan.py is trained by a modified cycleGAN training loop. CycleGAN was introduced in [2017 by Zhu-Park-Isola-Efros](https://junyanz.github.io/CycleGAN/) to transform between images in two different domains (for example turning images of horses to images of zebras and vice versa). In our cycleGAN framework, the two domains are singing and speech. Let us describe our cycleGAN loop in detail.
@@ -27,13 +27,35 @@ To train the generators, we minimize three loss functions:
 ## Data
 
 Our model is trained on two sources of data:
-- 
+- The [MUSDB18](https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems) dataset is a collection of 150 songs. Each song has seperate audio files for the vocal, bass, drums, and accompaniment (guitars, keys, synths, etc). From this dataset, we are able to separate vocals from their corresponding instrumental tracks.
+- The [LibriSpeech](https://www.openslr.org/12) dataset contains 360 hours of human speech.
+
+We package the MUSDB data in the MusdbDataset object and the LibriSpeech data in the LibriSpeechDataset object (both subclasses of the pytorch Dataset class). 
+
+Handling raw audio data can be difficult for neural networks storing audio as a time series produces a very long tensor (44100 Hz is a pretty typical sample rate). To work with smaller tensors, we compute a log mel spectrogram using [Librosa](https://librosa.org/doc/latest/index.html#). This involves three steps:
+1) Chop the audio into small chunks and compute a Fourier transform. This gives us frequency information at each time step. (The number of time steps in our code is usually stored as window_size). This process is called the short time Fourier transform (STFT).
+2) Take the absolute value of the complex numbers and project onto the [mel scale](https://en.wikipedia.org/wiki/Mel_scale). In our model, we use 128 mel bins.
+3) Convert the values to db (this essentially amounts to taking a logarithm).
+The result is a tensor of size (128, window_size).
 
 ## Training
-We might have graphs of our losses as we trained here.
+TODO: Add graphs of training and description of lambdas
 
 ## Files
+- dataset_classes.py : Contains the class definitions of the MusdbDataset and LibriSpeechDataset classes. There are three other internal dataset classes (AccompanimentVocalData, Speech Data, AccompanimentData) that help with loading and shuffling the data in the training loop.
+- download_datasets.py : Downloads the MUSDB and LibriSpeech data onto the user's machine.
+- build_datasets_from_path.py : Contains a wrapper function around the class constructors. This allows the user to build the necessary datasets from only a path to the data.
+- mrdiscriminator.py : Defines the TsaiMiniRocketDiscriminator class. Both discriminators are instances of this class.
+- vcgan.py : Defines the VocalCycleGAN class. This is the model class with the training loop.
+- app.py : Implements our Streamlit app.
 
-## Dependencies
 
-## 
+## Warnings
+1) To run this project, the user must install the python packages sktime, musdb, and stempeg.
+2) In the course of the project, we found that installing stempeg using pip or conda resulted in errors. We opted to download the latest version of stempeg (available [here](https://github.com/faroit/stempeg/tree/master)). The musdb package automatically installs stempeg, so the user must uninstall it before importing stempeg locally. The following code should give the correct configuration if the stempeg code is available.
+```
+import sys
+!{sys.executable} -m pip install musdb
+!{sys.executable} -m pip uninstall -y stempeg
+```
+3) We have included a link to the Wave-U-Net github. Be sure that that module is available for import.
