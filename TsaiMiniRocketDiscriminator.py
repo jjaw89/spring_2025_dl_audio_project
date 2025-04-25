@@ -7,6 +7,76 @@ from sktime.transformations.panel.rocket import MiniRocketMultivariate
 
 # MiniRocket Discriminator using tsai library
 class TsaiMiniRocketDiscriminator(nn.Module):
+        """A PyTorch module that implements a discriminator using the MiniRocket time series feature extraction algorithm from the tsai library.
+
+    This is a discriminator designed for distinguishing between real and synthetic audio, where the input data consists of spectrograms 
+    of audio signals (vocals and potentially accompaniment).
+
+    Attributes
+    ---------
+    rocket : MiniRocketMultivariate
+        The MiniRocket feature extractor
+    fitted : bool
+        Boolean flag indicating if the MiniRocket extractor has been fitted
+    freq_bins : int
+        Number of frequency bins in the input spectrogram
+    time_frames : int
+        Number of time frames in the input spectrogram
+    num_kernels : int
+        Number of convolutional kernels used by MiniRocket
+    accompaniment : bool
+        Boolean indicating whether accompaniment is used with vocals
+    feature_dim : int
+        Dimension of the feature vector produced by MiniRocket
+    classifier : nn.Sequential
+        Neural network for classification based on extracted features
+
+    Methods
+    -------
+    fit_rocket(vocals, accompaniment=None)
+        Fit the MiniRocket feature extractor using a sample of input data.
+        Parameters:
+            vocals (torch.Tensor): Sample vocal spectrograms
+            accompaniment (torch.Tensor, optional): Sample accompaniment spectrograms
+        
+    extract_features(spectrogram)
+        Extract MiniRocket features from the input spectrogram.
+        Parameters:
+            spectrogram (torch.Tensor): Input spectrogram data
+        Returns:
+            torch.Tensor: Extracted features
+        
+    forward(vocals, accompaniment=None)
+        Forward pass of the discriminator.
+        Parameters:
+            vocals (torch.Tensor): Vocal spectrograms of shape [batch_size, channels, freq_bins, time_frames]
+            accompaniment (torch.Tensor, optional): Accompaniment spectrograms
+        Returns:
+            torch.Tensor: Classification result (0-1 range via sigmoid)
+
+    Example
+    -------
+    # Create discriminator
+    discriminator = TsaiMiniRocketDiscriminator(
+        freq_bins=256, 
+        time_frames=256,
+        num_kernels=10000,
+        hidden_dim=1024,
+        output_dim=1,
+        accompaniment=True
+    )
+
+    # Sample data (spectrograms)
+    batch_size = 16
+    vocals = torch.randn(batch_size, 1, 256, 256)
+    accompaniment = torch.randn(batch_size, 1, 256, 256)
+
+    # Fit the MiniRocket transformer (only needs to be done once)
+    discriminator.fit_rocket(vocals, accompaniment)
+
+    # Forward pass
+    outputs = discriminator(vocals, accompaniment)
+    """
     def __init__(
         self,
         freq_bins=256,
