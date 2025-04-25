@@ -17,12 +17,17 @@ Both discriminators output a number between zero and one representing the probab
 
 To train the discriminators, we minimize two types of loss function:
 - Binary cross entropy of the predictions of each generator
-- Adversarial loss $\sum_x D(G(x))^2$ where $x$ is a piece of sample data, $D$ is the discriminator, and $G$ is the generator. Minimizing this encourages the generator
+- Adversarial loss : $\sum_x D(G(x))^2$ where $x$ is a piece of sample data, $D$ is the discriminator, and $G$ is the generator. Minimizing this encourages the discriminator to not be fooled by the generator.
 
 To train the generators, we minimize three loss functions:
-- L1_loss
+- Adversarial loss : In this case, adversarial loss is computed as $\sum_x (1-D(G(x)))^2$. Minimizing this function encourages the generator to fool the generator.
+- Cycle loss : Ideally, if we feed a piece of data through both generators, it should not change. So we minimize the $\ell_1$ distance between a piece of data $x$ and $G_2(G_1(x))$ where $G_1,G_2$ are the generators. Note that order matters here: if $x$ is speech, $G_1$ is generator_vocal and $G_2$ is generator_speech.
+- Identity loss : Ideally, generator_speech (resp. generator_vocal) would leave real speech (resp. singing) unchanged. So we minimize the $\ell_1$ mean-square error between $x$ and $G(x)$ where $G$ is generator_vocal if $x$ is singing and $G$ is generator_speech if $x$ is speech. There is an additional benefit to this loss function. Recall that generator_vocal acccepts a pair (speech, accompaniment) of speech and an instrumental accompaniment. The model must learn that it supposed to modify the speech to fit over the accompaniment. The identity loss indicates to the model that the speech is the primary object to operate on.
 
 ## Data
+
+Our model is trained on two sources of data:
+- 
 
 ## Training
 We might have graphs of our losses as we trained here.
