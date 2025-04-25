@@ -1,5 +1,5 @@
 from dataset_classes import MusdbDataset, LibriSpeechDataset, AccompanimentVocalData, SpeechData, AccompanimentData
-from TsaiMiniRocketDiscriminator import TsaiMiniRocketDiscriminator
+from mrdiscriminator import TsaiMiniRocketDiscriminator
 
 import model.utils as model_utils
 import utils
