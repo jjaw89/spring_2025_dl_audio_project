@@ -32,7 +32,7 @@ Our model is trained on two sources of data:
 
 We package the MUSDB data in the MusdbDataset object and the LibriSpeech data in the LibriSpeechDataset object (both subclasses of the pytorch Dataset class). 
 
-Handling raw audio data can be difficult for neural networks storing audio as a time series produces a very long tensor (44100 Hz is a pretty typical sample rate). To work with smaller tensors, we compute a log mel spectrogram using [Librosa](https://librosa.org/doc/latest/index.html#). This involves three steps:
+Handling raw audio data can be difficult for neural networks storing audio as a time series produces a very long tensor (44100 samples per second is typical). To work with smaller tensors, we compute a log mel spectrogram using [Librosa](https://librosa.org/doc/latest/index.html#). This involves three steps:
 1) Chop the audio into small chunks and compute a Fourier transform. This gives us frequency information at each time step. (The number of time steps in our code is usually stored as window_size). This process is called the short time Fourier transform (STFT).
 2) Take the absolute value of the complex numbers and project onto the [mel scale](https://en.wikipedia.org/wiki/Mel_scale). In our model, we use 128 mel bins.
 3) Convert the values to db (this essentially amounts to taking a logarithm).
