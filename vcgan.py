@@ -28,8 +28,8 @@ default_train_parameters = {
 
     # loss weights
     "lambda_l1":     1,
-    "lambda_cycle": .01,
-    "lambda_identity": .01,
+    "lambda_cycle": .001,
+    "lambda_identity": .00001,
 
 
     # bookkeeping
